@@ -1,7 +1,51 @@
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+
   text-align: center;
 }
 
+.App input {
+  margin-top: 20px;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+p {
+  margin: 10;
+  font-size: 18px;
+}
+
+.container {
+  margin-top: 40px;
+  align-items: center;
+  text-align: center;
+}
+
+.container2 {
+  background-image: url(./orange_b.png);
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+
+  text-align: center;
+}
+
+.search {
+  margin-bottom: 50px;
+}
+
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +79,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
