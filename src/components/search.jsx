@@ -21,13 +21,14 @@ const Search = () => {
 
       {JSONDATA.filter((val) => {
         if (searchTerm === "") return val;
-        //else if (val.food.toLowerCase().includes(searchTerm.toLowerCase()))
+        //else if (val.ITEM.toLowerCase().includes(searchTerm.toLowerCase()))
         //return val;
-
-        if (val.ITEM.toLowerCase().includes(searchTerm.toLowerCase()))
-          return val;
-
         if (parseInt(val.CAL, 10) <= searchTerm) return val;
+        else if (
+          val.ITEM.toLowerCase().includes(searchTerm.toLowerCase()) &&
+          !val.ITEM.includes("1") //fix this
+        )
+          return val;
       }).map((val, key) => {
         return (
           <div className="user " key={key}>
