@@ -23,6 +23,10 @@ const Search = () => {
         if (searchTerm === "") return val;
         //else if (val.food.toLowerCase().includes(searchTerm.toLowerCase()))
         //return val;
+
+        if (val.ITEM.toLowerCase().includes(searchTerm.toLowerCase()))
+          return val;
+
         if (parseInt(val.CAL, 10) <= searchTerm) return val;
       }).map((val, key) => {
         return (
