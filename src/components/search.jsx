@@ -27,8 +27,8 @@ const Search = () => {
         //return val;
         if (parseInt(val.CAL, 10) <= searchTerm) return val;
         else if (
-          val.ITEM.toLowerCase().includes(searchTerm.toLowerCase()) //&&
-          //!val.ITEM.some(nums) //includes("1") //fix this
+          val.ITEM.toLowerCase().includes(searchTerm.toLowerCase()) &&
+          !/\d/.test(searchTerm) //val.ITEM.some(nums) //includes("1") //fix this
         )
           return val;
       }).map((val, key) => {
