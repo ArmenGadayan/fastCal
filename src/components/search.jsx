@@ -21,7 +21,8 @@ const Search = () => {
 
             {
             JSONDATA.map((value, key) => {
-              //console.log(value);
+              return (              
+                //console.log(value);
               //for(let i = 0; i < 5; i++){}
                 value.foodItems.filter((val) => {
                     //console.log(val.foodItems.lenght);
@@ -39,19 +40,22 @@ const Search = () => {
                         return val;
                 }).map((val, key) => {
                     return (
-                        <div className="user " key={key}>
-                            {" "}
-                            <p className=" container-fluid">
-                                {val.foodName}{" "}
-                                <span className="badge bg-dark">
-                                    {val.calories}{" "}
-                                </span>
-                            </p>
-                        </div>
+                      <div className="user " key={key}>
+                      {" "}
+                      <p className=" container-fluid">
+                          {val.foodName}{" "}
+                          <span className="badge bg-dark">
+                              {val.calories}{" "}
+                          </span>
+                      </p>
+                  </div>
                     );
-                });
+                }))
+
+;
             })}
         </div>
+        
     );
 };
 
