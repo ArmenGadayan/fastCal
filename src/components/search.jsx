@@ -25,7 +25,7 @@ const Search = () => {
         if (searchTerm === "") return val;
         //else if (val.ITEM.toLowerCase().includes(searchTerm.toLowerCase()))
         //return val;
-        if (parseInt(val.CAL, 10) <= searchTerm) return val;
+        if (val.foodItems <= searchTerm) return val;
         else if (
           val.ITEM.toLowerCase().includes(searchTerm.toLowerCase()) &&
           !/\d/.test(searchTerm) //val.ITEM.some(nums) //includes("1") //fix this
