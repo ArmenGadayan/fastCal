@@ -20,13 +20,15 @@ const Search = () => {
       </span>
 
       {JSONDATA.filter((val) => {
+        const nums = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+
         if (searchTerm === "") return val;
         //else if (val.ITEM.toLowerCase().includes(searchTerm.toLowerCase()))
         //return val;
         if (parseInt(val.CAL, 10) <= searchTerm) return val;
         else if (
-          val.ITEM.toLowerCase().includes(searchTerm.toLowerCase()) &&
-          !val.ITEM.includes("1") //fix this
+          val.ITEM.toLowerCase().includes(searchTerm.toLowerCase()) //&&
+          //!val.ITEM.some(nums) //includes("1") //fix this
         )
           return val;
       }).map((val, key) => {
