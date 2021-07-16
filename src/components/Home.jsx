@@ -1,14 +1,16 @@
+import { MAP_CREATE } from "@blueprintjs/icons/lib/esm/generated/iconNames";
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import Restaurant from "./restaurant";
 
 class Home extends Component {
-    render() {
-        return (
-            <Link to="/search">
-                <button className="btn btn-info btn-sm m-2">search</button>
-            </Link>
-        );
-    }
+  render() {
+    return (
+      <div>
+        <Restaurant />
+        <Restaurant />
+      </div>
+    );
+  }
 }
 
 export default Home;
