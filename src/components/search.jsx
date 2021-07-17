@@ -3,7 +3,7 @@ import { useState } from "react";
 import JSONDATA from "../data.json";
 import { Icon, IconSize } from "@blueprintjs/core";
 
-const Search = () => {
+const Search = ({ restaurant }) => {
   const [searchTerm, setSearchTerm] = useState("");
   return (
     <div className="container3">
@@ -22,16 +22,17 @@ const Search = () => {
       {JSONDATA.map((value, key) => {
         return value.foodItems
           .filter((val) => {
-            if (searchTerm === "" && value.restaurant.includes("Burger King"))
-              return val;
-            //else if (val.ITEM.toLowerCase().includes(searchTerm.toLowerCase()))
-            //return val;
-            if (val.calories <= searchTerm) return val;
-            else if (
-              val.foodName.toLowerCase().includes(searchTerm.toLowerCase()) &&
-              !/\d/.test(searchTerm) //val.ITEM.some(nums) //includes("1") //fix this
-            )
-              return val;
+            if (value.restaurant.includes(restaurant)) {
+              if (searchTerm === "") return val;
+              //else if (val.ITEM.toLowerCase().includes(searchTerm.toLowerCase()))
+              //return val;
+              if (val.calories <= searchTerm) return val;
+              else if (
+                val.foodName.toLowerCase().includes(searchTerm.toLowerCase()) &&
+                !/\d/.test(searchTerm) //val.ITEM.some(nums) //includes("1") //fix this
+              )
+                return val;
+            }
           })
           .map((val, key) => {
             return (

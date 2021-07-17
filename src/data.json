@@ -2444,28 +2444,7 @@
         "calories": 550,
         "correctedTerm": "Dave's Single"
       },
-      { "foodName": "Dave's Single", "calories": 550 },
-      { "foodName": "Dave’s Single", "calories": 550 },
-      {
-        "foodName": "Daves Burger",
-        "calories": 550,
-        "correctedTerm": "Dave's Single"
-      },
-      {
-        "foodName": "Dave's Burger",
-        "calories": 550,
-        "correctedTerm": "Dave's Single"
-      },
-      {
-        "foodName": "Dave’s Burger",
-        "calories": 550,
-        "correctedTerm": "Dave's Single"
-      },
       { "foodName": "Daves Double", "calories": 790 },
-      { "foodName": "Dave's Double", "calories": 790 },
-      { "foodName": "Dave’s Double", "calories": 790 },
-      { "foodName": "Daves Triple", "calories": 1070 },
-      { "foodName": "Dave's Triple", "calories": 1070 },
       { "foodName": "Dave’s Triple", "calories": 1070 },
       { "foodName": "Son of Baconator", "calories": 610 },
       { "foodName": "Baconator", "foodType": "Burger", "calories": 930 },

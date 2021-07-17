@@ -45,6 +45,12 @@ p {
   margin-bottom: 50px;
 }
 
+.resLogo {
+  margin-top: 25px;
+  align-items: center;
+  text-align: center;
+}
+
 /*
 .App-logo {
   height: 40vmin;
