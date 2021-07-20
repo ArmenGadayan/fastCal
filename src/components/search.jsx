@@ -2,11 +2,13 @@ import React, { Component } from "react";
 import { useState } from "react";
 import JSONDATA from "../data.json";
 import { Icon, IconSize } from "@blueprintjs/core";
+import { Link } from "react-router-dom";
 
 const Search = ({ restaurant }) => {
   const [searchTerm, setSearchTerm] = useState("");
   return (
     <div className="container3">
+      <Link to="/">Home</Link>
       <span>
         <Icon className="m-1" icon="globe" iconSize={20} />
         <input

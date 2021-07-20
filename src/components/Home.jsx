@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     const { restaurants, onPress } = this.props;
     return (
-      <div className>
+      <div>
         {restaurants.map((res) => (
           <Restaurant
             name={res.id}

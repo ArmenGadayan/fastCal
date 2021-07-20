@@ -9,6 +9,19 @@ import orange from "./orange_b.png";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import MC from "./resLogos/McDonalds-logo.png";
 import BK from "./resLogos/BurgerKing.png";
+import Chipotle from "./resLogos/Chipotle.png";
+import Panera from "./resLogos/Panera.png";
+import Subway from "./resLogos/Subway.png";
+import CF from "./resLogos/Chick-fil-A.png";
+import Wendys from "./resLogos/Wendys.png";
+import TB from "./resLogos/TacoBell.png";
+import Arbys from "./resLogos/Arbys.png";
+import Har from "./resLogos/Hardees.png";
+import FG from "./resLogos/FiveGuys.png";
+import IN from "./resLogos/InNOut.png";
+import Sonic from "./resLogos/Sonic.svg";
+import Panda from "./resLogos/PandaExpress.png";
+import CK from "./resLogos/CookOut.png";
 
 class App extends Component {
   //   state = {
@@ -45,19 +58,19 @@ class App extends Component {
     restaurants: [
       { id: "McDonalds", link: MC },
       { id: "Burger King", link: BK },
-      { id: "Chipotle", link: MC },
-      { id: "Panera", link: MC },
-      { id: "Subway", link: MC },
-      { id: "Chick-fil-A", link: MC },
-      { id: "Wendys", link: MC },
-      { id: "Taco Bell", link: MC },
-      { id: "Arbys", link: MC },
-      { id: "Hardees", link: MC },
-      { id: "Five Guys", link: MC },
-      { id: "In-N-Out", link: MC },
-      { id: "Sonic", link: MC },
-      { id: "Panda Express", link: MC },
-      { id: "Cookout", link: MC },
+      { id: "Chipotle", link: Chipotle },
+      { id: "Panera", link: Panera },
+      { id: "Subway", link: Subway },
+      { id: "Chick-fil-A", link: CF },
+      { id: "Wendys", link: Wendys },
+      { id: "Taco Bell", link: TB },
+      { id: "Arbys", link: Arbys },
+      { id: "Hardees", link: Har },
+      { id: "Five Guys", link: FG },
+      { id: "In-N-Out", link: IN },
+      { id: "Sonic", link: Sonic },
+      { id: "Panda Express", link: Panda },
+      { id: "Cookout", link: CK },
     ],
     currentRes: null,
   };
