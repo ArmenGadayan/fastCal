@@ -1,56 +1,71 @@
 .App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 
-  text-align: center;
+    text-align: center;
 }
 
 .App input {
-  margin-top: 20px;
-  width: 300px;
-  height: 40px;
-  font-size: 20px;
-  padding-left: 10px;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
 }
 
 p {
-  margin: 10;
-  font-size: 18px;
+    margin: 10;
+    font-size: 18px;
 }
 
 .container {
-  margin-top: 40px;
-  align-items: center;
-  text-align: center;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
 }
 
 .container2 {
-  background-image: url(./orange_b.png);
+    background-image: url(./orange_b.png);
 }
 
 .container3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 
-  text-align: center;
+    text-align: center;
 }
 
 .search {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .resLogo {
-  margin-top: 25px;
-  align-items: center;
-  text-align: center;
+    margin-top: 25px;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 200px;
 }
 
+.col-md-3 {
+    height: 250px;
+    align-items: center;
+}
+
+.table {
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 /*
 .App-logo {
   height: 40vmin;
