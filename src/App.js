@@ -73,6 +73,7 @@ class App extends Component {
       { id: "Cookout", link: CK },
     ],
     currentRes: null,
+    totalCal: 0,
   };
 
   handlePress = (resId) => {
@@ -80,15 +81,16 @@ class App extends Component {
     this.setState({ currentRes });
   };
 
+  handleAdd = (calories) => {
+    const totalCal = this.state.totalCal + calories;
+    this.setState({ totalCal });
+  };
+
   render() {
     return (
       <div className="container2">
         <React.Fragment>
-          {/* <NavBar
-            totalCounters={
-              this.state.counters.filter((c) => c.value > 0).length
-            }
-          /> */}
+          <NavBar cals={this.state.totalCal} />
 
           <Router>
             <Switch>
@@ -99,7 +101,10 @@ class App extends Component {
                 />
               </Route>
               <Route path="/search">
-                <Search restaurant={this.state.currentRes} />
+                <Search
+                  restaurant={this.state.currentRes}
+                  onAdd={this.handleAdd}
+                />
               </Route>
             </Switch>
           </Router>
