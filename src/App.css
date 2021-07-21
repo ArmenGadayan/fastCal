@@ -29,6 +29,8 @@ p {
 
 .container2 {
     background-image: url(./orange_b.png);
+    position: fixed;
+    overflow-y: scroll;
     left: 0;
     top: 0;
     height: 100%;
