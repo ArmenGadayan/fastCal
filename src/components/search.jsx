@@ -44,10 +44,10 @@ const Search = ({ restaurant, onAdd }) => {
                 {" "}
                 <p className=" container-fluid">
                   <button
-                    className="btn btn-danger btn-sm m-2"
+                    className="btn rounded-pill btn-danger btn-sm m-2"
                     onClick={() => onAdd(val.calories)}
                   >
-                    Add
+                    <Icon className="m-1" icon="add" iconSize={20} />
                   </button>
                   {val.foodName}{" "}
                   <span className="badge bg-dark">{val.calories} </span>
