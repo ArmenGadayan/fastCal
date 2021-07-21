@@ -8,7 +8,7 @@ class Restaurant extends Component {
                 <Link
                     to="/search"
                     onClick={() => this.props.onPress(this.props.name)}
-                    style={{ textDecoration: "none", color: "#FFF" }}
+                    style={{ textDecoration: "none", color: "#000" }}
                 >
                     {/* <button className="btn btn-info btn-sm m-2">search</button> */}
                     <img src={this.props.pic} alt="Logo" />
