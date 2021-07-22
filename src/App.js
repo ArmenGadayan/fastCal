@@ -75,7 +75,7 @@ class App extends Component {
     ],
     currentRes: null,
     totalCal: 0,
-    foodList: []
+    foodList: [],
   };
 
   handlePress = (resId) => {
@@ -86,17 +86,25 @@ class App extends Component {
   handleAdd = (calories, name) => {
     const totalCal = this.state.totalCal + calories;
     const foodList = this.state.foodList;
-    foodList.push({calories, name})
+    foodList.push({ calories, name });
     this.setState({ totalCal, foodList });
+  };
+
+  handleDeleteItem = (item) => {
+    const foodList = this.state.foodList.filter((c) => c !== item);
+    const totalCal = this.state.totalCal - item.calories;
+    this.setState({ foodList, totalCal });
   };
 
   render() {
     return (
-     
       <div className="container2">
         <React.Fragment>
           <NavBar cals={this.state.totalCal} />
-          <Sidebar foodList={this.state.foodList}/>
+          <Sidebar
+            foodList={this.state.foodList}
+            onDeleteItem={this.handleDeleteItem}
+          />
 
           <Router>
             <Switch>
