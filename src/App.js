@@ -86,7 +86,9 @@ class App extends Component {
   handleAdd = (calories, name) => {
     const totalCal = this.state.totalCal + calories;
     const foodList = this.state.foodList;
-    foodList.push({ calories, name });
+    if (foodList.some((item) => item.name === name)) {
+      foodList.find((item) => item.name === name).quantity += 1;
+    } else foodList.push({ calories, name, quantity: 1 });
     this.setState({ totalCal, foodList });
   };
 
@@ -94,6 +96,13 @@ class App extends Component {
     const foodList = this.state.foodList.filter((c) => c !== item);
     const totalCal = this.state.totalCal - item.calories;
     this.setState({ foodList, totalCal });
+  };
+
+  handleAddItem = (item) => {
+    const foodList = this.state.foodList.map((c) => {
+      if (c === item) c.quantity += 1;
+    });
+    this.setState({ foodList });
   };
 
   render() {
@@ -104,6 +113,7 @@ class App extends Component {
           <Sidebar
             foodList={this.state.foodList}
             onDeleteItem={this.handleDeleteItem}
+            onAddItem={this.handleAddItem}
           />
 
           <Router>

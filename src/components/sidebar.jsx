@@ -4,7 +4,7 @@ import { NavItem } from "react-bootstrap";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import SidebarContent from "./sidebarContent";
 
-const Sidebar = ({ foodList, onDeleteItem }) => {
+const Sidebar = ({ foodList, onDeleteItem, onAddItem }) => {
   const [show, setShow] = useState("");
   const handleClose = () => setShow(false);
   const toggleShow = () => setShow((s) => !s);
@@ -29,7 +29,11 @@ const Sidebar = ({ foodList, onDeleteItem }) => {
           <Offcanvas.Title>Food List</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <SidebarContent foodList={foodList} onDeleteItem={onDeleteItem} />
+          <SidebarContent
+            foodList={foodList}
+            onDeleteItem={onDeleteItem}
+            onAddItem={onAddItem}
+          />
         </Offcanvas.Body>
       </Offcanvas>
     </React.Fragment>
