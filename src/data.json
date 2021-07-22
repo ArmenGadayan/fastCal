@@ -1834,23 +1834,13 @@
     "restaurant": "McDonalds",
     "foodItems": [
       { "foodName": "Big Mac", "foodType": "Burger", "calories": 540 },
-      { "foodName": "Big Macs", "calories": 540, "correctedTerm": "Big Mac" },
-      { "foodName": "BigMac", "calories": 540, "correctedTerm": "Big Mac" },
-      { "foodName": "BigMc", "calories": 540, "correctedTerm": "Big Mac" },
-      { "foodName": "2 Big Macs", "calories": 1080 },
       {
         "foodName": "Quarter Pounder",
         "foodType": "Burger",
         "calories": 540,
         "correctedTerm": "Quarter Pounder with Cheese"
       },
-      {
-        "foodName": "Quarter Pounder Burger",
-        "calories": 540,
-        "correctedTerm": "Quarter Pounder with Cheese"
-      },
-      { "foodName": "Quarter Pounder with Cheese", "calories": 540 },
-      { "foodName": "Quarter Pound with Cheese", "calories": 540 },
+
       { "foodName": "Quarter Pounder Deluxe", "calories": 600 },
       { "foodName": "Mushroom & Swiss Quarter Pounder", "calories": 590 },
       {

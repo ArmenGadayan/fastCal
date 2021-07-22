@@ -1,11 +1,17 @@
 import React, { Component } from "react";
 import { useState } from "react";
+import { NavItem } from "react-bootstrap";
 import Offcanvas from "react-bootstrap/Offcanvas";
 
-const Sidebar = () => {
+const Sidebar = ({ foodList }) => {
     const [show, setShow] = useState("");
     const handleClose = () => setShow(false);
     const toggleShow = () => setShow((s) => !s);
+
+    const options = {
+        scroll: false,
+        backdrop: true,
+    };
 
     return (
         <React.Fragment>
@@ -15,15 +21,20 @@ const Sidebar = () => {
             <Offcanvas
                 show={show}
                 onHide={handleClose}
-                scroll="true"
-                backdrop="false"
+                scroll={true}
+                backdrop={false}
             >
                 <Offcanvas.Header closeButton>
-                    <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                    <Offcanvas.Title>Food List</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
-                    Some text as placeholder. In real life you can have the
-                    elements you have chosen. Like, text, images, lists, etc.
+                    {foodList.map((item) => {
+                        return (
+                            <div>
+                                {item.name} {item.calories}
+                            </div>
+                        );
+                    })}
                 </Offcanvas.Body>
             </Offcanvas>
         </React.Fragment>

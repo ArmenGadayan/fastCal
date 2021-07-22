@@ -75,6 +75,7 @@ class App extends Component {
     ],
     currentRes: null,
     totalCal: 0,
+    foodList: []
   };
 
   handlePress = (resId) => {
@@ -82,17 +83,20 @@ class App extends Component {
     this.setState({ currentRes });
   };
 
-  handleAdd = (calories) => {
+  handleAdd = (calories, name) => {
     const totalCal = this.state.totalCal + calories;
-    this.setState({ totalCal });
+    const foodList = this.state.foodList;
+    foodList.push({calories, name})
+    this.setState({ totalCal, foodList });
   };
 
   render() {
     return (
+     
       <div className="container2">
         <React.Fragment>
           <NavBar cals={this.state.totalCal} />
-          <Sidebar/>
+          <Sidebar foodList={this.state.foodList}/>
 
           <Router>
             <Switch>
