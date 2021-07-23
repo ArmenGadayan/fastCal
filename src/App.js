@@ -98,10 +98,9 @@ class App extends Component {
     this.setState({ foodList, totalCal });
   };
 
-  handleAddItem = (item) => {
-    const foodList = this.state.foodList.map((c) => {
-      if (c === item) c.quantity += 1;
-    });
+  handleAddItem = (name) => {
+    const foodList = this.state.foodList;
+    foodList.find((item) => item.name === name).quantity += 1;
     this.setState({ foodList });
   };
 
