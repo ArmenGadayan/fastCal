@@ -95,7 +95,7 @@ class App extends Component {
   handleDeleteItem = (item) => {
     // const foodList = this.state.foodList.filter((c) => c !== item);
     // const totalCal = this.state.totalCal - item.calories;
-    // this.setState({ foodList, totalCal });
+    // this.setState({ foodList, totalCal }) ;
 
     let foodList = this.state.foodList;
     const totalCal = this.state.totalCal - item.calories;
