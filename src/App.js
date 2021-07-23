@@ -97,11 +97,11 @@ class App extends Component {
     // const totalCal = this.state.totalCal - item.calories;
     // this.setState({ foodList, totalCal });
 
-    const foodList = this.state.foodList;
+    let foodList = this.state.foodList;
     const totalCal = this.state.totalCal - item.calories;
-    if (foodList.some((c) => c.name === item.name)) {
+    if (foodList.some((c) => c.quantity !== 1)) {
       foodList.find((c) => c.name === item.name).quantity -= 1;
-    } else foodList.filter((c) => c !== item);
+    } else foodList = foodList.filter((c) => c !== item);
     this.setState({ totalCal, foodList });
   };
 
