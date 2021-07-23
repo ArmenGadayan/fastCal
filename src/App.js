@@ -93,9 +93,16 @@ class App extends Component {
   };
 
   handleDeleteItem = (item) => {
-    const foodList = this.state.foodList.filter((c) => c !== item);
+    // const foodList = this.state.foodList.filter((c) => c !== item);
+    // const totalCal = this.state.totalCal - item.calories;
+    // this.setState({ foodList, totalCal });
+
+    const foodList = this.state.foodList;
     const totalCal = this.state.totalCal - item.calories;
-    this.setState({ foodList, totalCal });
+    if (foodList.some((c) => c.name === item.name)) {
+      foodList.find((c) => c.name === item.name).quantity -= 1;
+    } else foodList.filter((c) => c !== item);
+    this.setState({ totalCal, foodList });
   };
 
   handleAddItem = (name, calories) => {
