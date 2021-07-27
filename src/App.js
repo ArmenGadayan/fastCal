@@ -98,16 +98,17 @@ class App extends Component {
 
     let foodList = this.state.foodList;
     const totalCal = this.state.totalCal - item.calories;
-    if (foodList.some((c) => c.quantity !== 1)) {
-      foodList.find((c) => c.name === item.name).quantity -= 1;
+    const selectedItem = foodList.find((c) => c.name === item.name);
+    if (selectedItem.quantity > 1) {
+      selectedItem.quantity -= 1;
     }
-    // else foodList = foodList.filter((c) => c !== item);
-    else {
-      let index = foodList.indexOf(item);
-      if (index !== -1) {
-        foodList.splice(index, 1);
-      }
-    }
+    else foodList = foodList.filter((c) => c !== item);
+    // else {
+    //   let index = foodList.indexOf(item);
+    //   if (index !== -1) {
+    //     foodList.splice(index, 1);
+    //   }
+    
     this.setState({ totalCal, foodList });
   };
 
