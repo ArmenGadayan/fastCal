@@ -100,7 +100,14 @@ class App extends Component {
     const totalCal = this.state.totalCal - item.calories;
     if (foodList.some((c) => c.quantity !== 1)) {
       foodList.find((c) => c.name === item.name).quantity -= 1;
-    } else foodList = foodList.filter((c) => c !== item);
+    }
+    // else foodList = foodList.filter((c) => c !== item);
+    else {
+      let index = foodList.indexOf(item);
+      if (index !== -1) {
+        foodList.splice(index, 1);
+      }
+    }
     this.setState({ totalCal, foodList });
   };
 
