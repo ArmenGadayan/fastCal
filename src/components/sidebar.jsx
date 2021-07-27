@@ -3,6 +3,7 @@ import { useState } from "react";
 import { NavItem } from "react-bootstrap";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import SidebarContent from "./sidebarContent";
+import { Icon, IconSize } from "@blueprintjs/core";
 
 const Sidebar = ({ foodList, onDeleteItem, onAddItem }) => {
   const [show, setShow] = useState("");
@@ -16,8 +17,8 @@ const Sidebar = ({ foodList, onDeleteItem, onAddItem }) => {
 
   return (
     <React.Fragment>
-      <button variant="primary" onClick={toggleShow} className="me-2">
-        sidebar
+      <button variant="primary" onClick={toggleShow} className="menuButton">
+        <Icon icon="menu" />
       </button>
       <Offcanvas
         show={show}

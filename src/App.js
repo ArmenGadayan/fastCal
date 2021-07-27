@@ -22,7 +22,6 @@ import IN from "./resLogos/InNOut.png";
 import Sonic from "./resLogos/Sonic.svg";
 import Panda from "./resLogos/PandaExpress.png";
 import CK from "./resLogos/CookOut.png";
-import Sidebar from "./components/sidebar";
 
 class App extends Component {
   //   state = {
@@ -116,8 +115,8 @@ class App extends Component {
     return (
       <div className="container2">
         <React.Fragment>
-          <NavBar cals={this.state.totalCal} />
-          <Sidebar
+          <NavBar
+            cals={this.state.totalCal}
             foodList={this.state.foodList}
             onDeleteItem={this.handleDeleteItem}
             onAddItem={this.handleAddItem}
