@@ -10,13 +10,15 @@ const NavBar = ({ cals, foodList, onDeleteItem, onAddItem }) => {
           onDeleteItem={onDeleteItem}
           onAddItem={onAddItem}
         />
-        <a className="navbar-brand" href="#">
+        <div className="navbar-brand">
           Total Calories{" "}
           <span className="badge rounded-pill bg-secondary">{cals}</span>
-        </a>
+        </div>
       </div>
     </nav>
   );
 };
 
 export default NavBar;
+
+//href="#"

@@ -108,9 +108,21 @@ img {
   border: none;
 }
 
-.quantityBox {
-  width: 5%;
+.quantityBox1 {
+  width: 5.5%;
   margin-inline: 5px;
+  border-radius: 20px;
+  background-color: rgb(196, 47, 47);
+}
+
+.quantityBox2 {
+  width: 5.5%;
+  margin-inline: 5px;
+  border-radius: 20px;
+  background-color: rgb(139, 196, 241);
+}
+
+.sideBarCal {
 }
 
 /*

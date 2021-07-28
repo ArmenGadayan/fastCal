@@ -8,22 +8,24 @@ const SidebarContent = ({ foodList, onDeleteItem, onAddItem }) => {
     <div>
       {foodList.map((item) => {
         return (
-          <div>
-            <span>
-              {item.quantity} {item.name} {item.calories}
-              <input
-                className="quantityBox"
-                type="image"
-                src={deleteIcon}
-                onClick={() => onDeleteItem(item)}
-              />
-              <input
-                className="quantityBox"
-                type="image"
-                src={addIcon}
-                onClick={() => onAddItem(item.name, item.calories)}
-              />
+          <div className="sideBarLine">
+            <span className="badge rounded-pill bg-dark m-2">
+              {item.quantity}{" "}
             </span>
+            {item.name}{" "}
+            <span className="sideBarCal">| {item.calories} cals</span>
+            <input
+              className="quantityBox1"
+              type="image"
+              src={deleteIcon}
+              onClick={() => onDeleteItem(item)}
+            />
+            <input
+              className="quantityBox2"
+              type="image"
+              src={addIcon}
+              onClick={() => onAddItem(item.name, item.calories)}
+            />
           </div>
         );
       })}

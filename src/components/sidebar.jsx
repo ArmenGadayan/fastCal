@@ -19,7 +19,7 @@ const Sidebar = ({ foodList, onDeleteItem, onAddItem }) => {
     <React.Fragment>
       <button variant="primary" onClick={toggleShow} className="menuButton">
         <Icon icon="menu" />
-      </button>
+      </button>{" "}
       <Offcanvas
         show={show}
         onHide={handleClose}
