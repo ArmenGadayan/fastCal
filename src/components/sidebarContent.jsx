@@ -8,7 +8,7 @@ const SidebarContent = ({ foodList, onDeleteItem, onAddItem }) => {
         <div>
             {foodList.map((item) => {
                 return (
-                    <div className="sideBarLine qty mt-5">
+                    <div className="sideBarLine qty">
                         <span
                             className="minus bg-dark"
                             onClick={() => onAddItem(item.name, item.calories)}

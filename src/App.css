@@ -96,7 +96,7 @@ img {
 }
 
 .navbar {
-    background-color: darkslategray;
+    background-color: rgb(39, 39, 39);
 }
 
 .navbar-brand {
@@ -104,22 +104,9 @@ img {
 }
 
 .menuButton {
-    background-color: darkslategray;
+    background-color: rgb(39, 39, 39);
     border: none;
-}
-
-.quantityBox1 {
-    width: 5.5%;
-    margin-inline: 5px;
-    border-radius: 20px;
-    background-color: rgb(240, 77, 77);
-}
-
-.quantityBox2 {
-    width: 5.5%;
-    margin-inline: 5px;
-    border-radius: 20px;
-    background-color: rgb(55, 226, 135);
+    fill: white;
 }
 
 .sideBarCal {
