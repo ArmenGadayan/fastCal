@@ -101,14 +101,13 @@ class App extends Component {
     const selectedItem = foodList.find((c) => c.name === item.name);
     if (selectedItem.quantity > 1) {
       selectedItem.quantity -= 1;
-    }
-    else foodList = foodList.filter((c) => c !== item);
+    } else foodList = foodList.filter((c) => c !== item);
     // else {
     //   let index = foodList.indexOf(item);
     //   if (index !== -1) {
     //     foodList.splice(index, 1);
     //   }
-    
+
     this.setState({ totalCal, foodList });
   };
 
@@ -116,6 +115,12 @@ class App extends Component {
     const foodList = this.state.foodList;
     const totalCal = this.state.totalCal + calories;
     foodList.find((item) => item.name === name).quantity += 1;
+    this.setState({ foodList, totalCal });
+  };
+
+  handleReset = () => {
+    const foodList = [];
+    const totalCal = 0;
     this.setState({ foodList, totalCal });
   };
 
@@ -128,6 +133,7 @@ class App extends Component {
             foodList={this.state.foodList}
             onDeleteItem={this.handleDeleteItem}
             onAddItem={this.handleAddItem}
+            onReset={this.handleReset}
           />
 
           <Router>
