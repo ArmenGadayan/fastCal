@@ -154,8 +154,10 @@ img {
 .resetButton {
   color: white;
   background-color: rgb(39, 39, 39);
-  margin-right: initial;
   border-color: white;
+}
+
+.topRightBox {
 }
 
 /*
