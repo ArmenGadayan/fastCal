@@ -1,128 +1,167 @@
 .App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 
-  text-align: center;
+    text-align: center;
 }
 
 .App input {
-  margin-top: 20px;
-  width: 300px;
-  height: 40px;
-  font-size: 20px;
-  padding-left: 10px;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
 }
 
 p {
-  margin: 10;
-  font-size: 18px;
+    margin: 10;
+    font-size: 18px;
 }
 
 .container {
-  margin-top: 40px;
-  align-items: center;
-  text-align: center;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
 }
 
 .container2 {
-  background-image: url(./orange_b.png);
-  position: fixed;
-  overflow-y: scroll;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(./orange_b.png);
+    position: fixed;
+    overflow-y: scroll;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 
-  text-align: center;
+    text-align: center;
 }
 
 .search {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .resLogo {
-  display: flex;
-  margin-top: 25px;
+    display: flex;
+    margin-top: 25px;
 
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  height: 20px;
-  width: 300px;
-  font-size: 25px;
-  margin-left: 70px;
-  margin-right: 70px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 20px;
+    width: 300px;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .col-md-3 {
-  display: flex;
-  justify-content: center;
-  height: 350px;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    align-items: center;
 }
 
 .row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .table {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 img {
-  max-width: 90%;
-  max-height: 90%;
+    max-width: 90%;
+    max-height: 90%;
 }
 
 .navbar {
-  background-color: darkslategray;
+    background-color: darkslategray;
 }
 
 .navbar-brand {
-  color: white;
+    color: white;
 }
 
 .menuButton {
-  background-color: darkslategray;
-  border: none;
+    background-color: darkslategray;
+    border: none;
 }
 
 .quantityBox1 {
-  width: 5.5%;
-  margin-inline: 5px;
-  border-radius: 20px;
-  background-color: rgb(196, 47, 47);
+    width: 5.5%;
+    margin-inline: 5px;
+    border-radius: 20px;
+    background-color: rgb(240, 77, 77);
 }
 
 .quantityBox2 {
-  width: 5.5%;
-  margin-inline: 5px;
-  border-radius: 20px;
-  background-color: rgb(139, 196, 241);
+    width: 5.5%;
+    margin-inline: 5px;
+    border-radius: 20px;
+    background-color: rgb(55, 226, 135);
 }
 
 .sideBarCal {
+}
+.qty .count {
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 2px;
+    min-width: 35px;
+    text-align: center;
+}
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font: 20px/1 Arial, sans-serif;
+    text-align: center;
+    border-radius: 50%;
+}
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font: 20px/1 Arial, sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 
 /*
