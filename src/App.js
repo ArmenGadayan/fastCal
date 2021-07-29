@@ -136,24 +136,25 @@ class App extends Component {
             onReset={this.handleReset}
           />
         </div>
-        <Router>
-          <Switch>
-            <Route exact path="/">
-              <Home
-                restaurants={this.state.restaurants}
-                onPress={this.handlePress}
-              />
-            </Route>
-            <Route path="/search">
-              <Search
-                restaurant={this.state.currentRes}
-                onAdd={this.handleAdd}
-              />
-            </Route>
-          </Switch>
-        </Router>
+        <div className="mainBox">
+          <Router>
+            <Switch>
+              <Route exact path="/">
+                <Home
+                  restaurants={this.state.restaurants}
+                  onPress={this.handlePress}
+                />
+              </Route>
+              <Route path="/search">
+                <Search
+                  restaurant={this.state.currentRes}
+                  onAdd={this.handleAdd}
+                />
+              </Route>
+            </Switch>
+          </Router>
 
-        {/* <Box />
+          {/* <Box />
 
           <main className="container">
             <Counters
@@ -163,6 +164,7 @@ class App extends Component {
               onDelete={this.handleDelete}
             />
           </main> */}
+        </div>
       </div>
     );
   }
