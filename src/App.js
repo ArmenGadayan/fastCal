@@ -126,7 +126,8 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container2">
+        <div className="navBox">
           <NavBar
             cals={this.state.totalCal}
             foodList={this.state.foodList}
@@ -134,25 +135,25 @@ class App extends Component {
             onAddItem={this.handleAddItem}
             onReset={this.handleReset}
           />
-<div className="container2">
-          <Router>
-            <Switch>
-              <Route exact path="/">
-                <Home
-                  restaurants={this.state.restaurants}
-                  onPress={this.handlePress}
-                />
-              </Route>
-              <Route path="/search">
-                <Search
-                  restaurant={this.state.currentRes}
-                  onAdd={this.handleAdd}
-                />
-              </Route>
-            </Switch>
-          </Router>
+        </div>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <Home
+                restaurants={this.state.restaurants}
+                onPress={this.handlePress}
+              />
+            </Route>
+            <Route path="/search">
+              <Search
+                restaurant={this.state.currentRes}
+                onAdd={this.handleAdd}
+              />
+            </Route>
+          </Switch>
+        </Router>
 
-          {/* <Box />
+        {/* <Box />
 
           <main className="container">
             <Counters
@@ -162,8 +163,6 @@ class App extends Component {
               onDelete={this.handleDelete}
             />
           </main> */}
-        
-      </div>
       </div>
     );
   }

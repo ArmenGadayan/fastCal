@@ -95,6 +95,11 @@ img {
   max-height: 90%;
 }
 
+.navBox {
+  position: fixed;
+  width: 99.1%;
+}
+
 .navbar {
   background-color: rgb(39, 39, 39);
   position: fixed;
