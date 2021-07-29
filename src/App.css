@@ -48,8 +48,8 @@ p {
   align-items: center;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
-
   text-align: center;
+  margin-top: 75px;
 }
 
 .search {
