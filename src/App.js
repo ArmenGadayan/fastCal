@@ -126,8 +126,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container2">
-        <React.Fragment>
+      <div>
           <NavBar
             cals={this.state.totalCal}
             foodList={this.state.foodList}
@@ -135,7 +134,7 @@ class App extends Component {
             onAddItem={this.handleAddItem}
             onReset={this.handleReset}
           />
-
+<div className="container2">
           <Router>
             <Switch>
               <Route exact path="/">
@@ -163,7 +162,8 @@ class App extends Component {
               onDelete={this.handleDelete}
             />
           </main> */}
-        </React.Fragment>{" "}
+        
+      </div>
       </div>
     );
   }
