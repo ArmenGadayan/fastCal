@@ -44,8 +44,19 @@ const Search = ({ restaurant, onAdd }) => {
                 {" "}
                 <p className=" container-fluid">
                   <button
-                    className="btn btn-danger btn-sm m-2"
+                    className="searchAddbutton btn btn-danger btn-sm m-2"
                     onClick={() => onAdd(val.calories, val.foodName)}
+                    style={{
+                      borderWidth: 1,
+                      borderColor: "rgba(0,0,0,0.2)",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      width: 45,
+                      height: 45,
+                      backgroundColor: "#212529",
+                      borderRadius: 20,
+                      fill: "white",
+                    }}
                   >
                     <Icon className="m-1" icon="add" iconSize={20} />
                   </button>
