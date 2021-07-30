@@ -127,7 +127,6 @@ class App extends Component {
   render() {
     return (
       <div className="container2">
-        <div className="navBox">
           <NavBar
             cals={this.state.totalCal}
             foodList={this.state.foodList}
@@ -135,7 +134,6 @@ class App extends Component {
             onAddItem={this.handleAddItem}
             onReset={this.handleReset}
           />
-        </div>
         <div className="mainBox">
           <Router>
             <Switch>
