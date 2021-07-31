@@ -219,12 +219,6 @@
         "carbs": 41
       },
       {
-        "foodName": "Chicken Flatbread",
-        "calories": 380,
-        "correctedTerm": "BBQ Chicken Flatbread",
-        "carbs": 41
-      },
-      {
         "foodName": "Tomato Mozzarella Flatbread",
         "calories": 350,
         "carbs": 35
@@ -244,18 +238,6 @@
         "calories": 440,
         "carbs": 38
       },
-      {
-        "foodName": "Half Italian",
-        "calories": 440,
-        "correctedTerm": "Half Size Italian on Hoagie Roll",
-        "carbs": 38
-      },
-      {
-        "foodName": "Italian",
-        "calories": 880,
-        "correctedTerm": "Italian on Hoagie Roll",
-        "carbs": 75
-      },
       { "foodName": "Italian on Hoagie Roll", "calories": 880, "carbs": 75 },
       {
         "foodName": "Steak and White Cheddar Panini",
@@ -268,83 +250,41 @@
         "calories": 940,
         "carbs": 79
       },
-      {
-        "foodName": "Steak Panini",
-        "calories": 940,
-        "correctedTerm": "Steak & White Cheddar Panini on Hoagie Roll",
-        "carbs": 79
-      },
+
       {
         "foodName": "Steak & White Cheddar Panini on Hoagie Roll",
         "calories": 940,
         "carbs": 79
       },
-      {
-        "foodName": "Half Steak Panini",
-        "calories": 470,
-        "correctedTerm": "Half Size Steak & White Cheddar Panini on Hoagie Roll",
-        "carbs": 40
-      },
+
       {
         "foodName": "Half Size Steak & White Cheddar Panini on Hoagie Roll",
         "calories": 470,
         "carbs": 40
       },
-      {
-        "foodName": "Chicken Panini",
-        "calories": 750,
-        "correctedTerm": "Frontega Chicken Panini on Focaccia",
-        "carbs": 85
-      },
-      {
-        "foodName": "Half Chicken Panini",
-        "calories": 380,
-        "correctedTerm": "Half Size Chicken Panini",
-        "carbs": 42
-      },
+
       { "foodName": "Half Size Chicken Panini", "calories": 380, "carbs": 42 },
       {
         "foodName": "Frontega Chicken Panini on Focaccia",
         "calories": 750,
         "carbs": 85
       },
-      {
-        "foodName": "Half Turkey Sandwich",
-        "calories": 280,
-        "correctedTerm": "Half Size Turkey Breast Sandwich",
-        "carbs": 32
-      },
+
       {
         "foodName": "Half Size Turkey Breast Sandwich",
         "calories": 280,
         "carbs": 32
       },
-      {
-        "foodName": "Turkey Sandwich",
-        "foodType": "Sandwich",
-        "calories": 560,
-        "correctedTerm": "Turkey Breast Sandwich",
-        "carbs": 65
-      },
+
       { "foodName": "Turkey Breast Sandwich", "calories": 560, "carbs": 65 },
-      {
-        "foodName": "Grilled Cheese",
-        "calories": 640,
-        "correctedTerm": "Classic Grilled Cheese",
-        "carbs": 73
-      },
+
       { "foodName": "Classic Grilled Cheese", "calories": 640, "carbs": 73 },
       {
         "foodName": "Half Size Classic Grilled Cheese",
         "calories": 320,
         "carbs": 37
       },
-      {
-        "foodName": "Half Grilled Cheese",
-        "calories": 320,
-        "correctedTerm": "Half Size Classic Grilled Cheese",
-        "carbs": 37
-      },
+
       { "foodName": "Chicken Salad Sandwich", "calories": 700, "carbs": 90 },
       { "foodName": "Veggie Sandwich", "calories": 440, "carbs": 65 },
       {
@@ -392,18 +332,7 @@
         "carbs": 68
       },
       { "foodName": "Macaroni and Cheese", "calories": 470, "carbs": 36 },
-      {
-        "foodName": "Mac and Cheese",
-        "calories": 470,
-        "correctedTerm": "Small Mac and Cheese",
-        "carbs": 36
-      },
-      {
-        "foodName": "Mac & Cheese",
-        "calories": 470,
-        "correctedTerm": "Small Mac and Cheese",
-        "carbs": 36
-      },
+
       { "foodName": "Small Mac and Cheese", "calories": 470, "carbs": 36 },
       { "foodName": "Kids Mac and Cheese", "calories": 470, "carbs": 36 },
       { "foodName": "Large Mac and Cheese", "calories": 950, "carbs": 71 },
@@ -433,21 +362,7 @@
         "sideItem": true,
         "carbs": 17
       },
-      {
-        "foodName": "Vegetarian Autumn Squash Soup",
-        "calories": 340,
-        "sideItem": true,
-        "correctedTerm": "Bowl of Vegetarian Autumn Squash Soup",
-        "carbs": 44
-      },
-      {
-        "foodName": "Autumn Squash Soup",
-        "foodType": "Soup",
-        "calories": 340,
-        "sideItem": true,
-        "correctedTerm": "Bowl of Vegetarian Autumn Squash Soup",
-        "carbs": 44
-      },
+
       {
         "foodName": "Bowl of Vegetarian Autumn Squash Soup",
         "calories": 340,
@@ -460,14 +375,7 @@
         "sideItem": true,
         "carbs": 29
       },
-      {
-        "foodName": "Turkey Chili",
-        "foodType": "Soup",
-        "calories": 260,
-        "sideItem": true,
-        "correctedTerm": "Bowl of Turkey Chili",
-        "carbs": 32
-      },
+
       {
         "foodName": "Bowl of Turkey Chili",
         "calories": 260,
@@ -480,14 +388,7 @@
         "sideItem": true,
         "carbs": 21
       },
-      {
-        "foodName": "Cream of Chicken & Wild Rice Soup",
-        "foodType": "Soup",
-        "calories": 260,
-        "sideItem": true,
-        "correctedTerm": "Bowl of Cream of Chicken & Wild Rice Soup",
-        "carbs": 27
-      },
+
       {
         "foodName": "Bowl of Cream of Chicken & Wild Rice Soup",
         "sideItem": true,
@@ -500,14 +401,7 @@
         "calories": 180,
         "carbs": 18
       },
-      {
-        "foodName": "Chicken Noodle Soup",
-        "foodType": "Soup",
-        "sideItem": true,
-        "calories": 160,
-        "correctedTerm": "Bowl of Chicken Noodle Soup",
-        "carbs": 19
-      },
+
       {
         "foodName": "Bowl of Chicken Noodle Soup",
         "calories": 160,
@@ -566,14 +460,7 @@
         "sideItem": true,
         "carbs": 36
       },
-      {
-        "foodName": "French Onion Soup",
-        "foodType": "Soup",
-        "calories": 310,
-        "correctedTerm": "Bowl of French Onion Soup",
-        "sideItem": true,
-        "carbs": 35
-      },
+
       {
         "foodName": "Bowl of French Onion Soup",
         "calories": 310,
@@ -763,51 +650,23 @@
     "restaurant": "Burger King",
     "foodItems": [
       { "foodName": "Whopper", "foodType": "Burger", "calories": 660 },
-      { "foodName": "Whooper", "calories": 660, "correctedTerm": "Whopper" },
-      {
-        "foodName": "Whopper Sandwich",
-        "calories": 660,
-        "correctedTerm": "Whopper"
-      },
+
       { "foodName": "Whopper with Cheese", "calories": 740 },
-      { "foodName": "Whooper with Cheese", "calories": 740 },
       { "foodName": "Bacon and Cheese Whopper", "calories": 790 },
       { "foodName": "Bacon Double Cheeseburger", "calories": 370 },
-      {
-        "foodName": "Double Bacon Burger",
-        "calories": 370,
-        "correctedTerm": "Bacon Double Cheeseburger"
-      },
+
       { "foodName": "Double Whopper", "foodType": "Burger", "calories": 900 },
       { "foodName": "Double Whopper with Cheese", "calories": 980 },
       { "foodName": "Triple Whopper", "calories": 1130 },
       { "foodName": "Triple Whopper with Cheese", "calories": 1210 },
       { "foodName": "Bacon King", "calories": 1150 },
-      {
-        "foodName": "Double Whopper Bacon King",
-        "calories": 1150,
-        "correctedTerm": "Bacon King"
-      },
+
       { "foodName": "Farmhouse King", "calories": 1220 },
       { "foodName": "Farmhouse", "calories": 1220 },
       { "foodName": "Rodeo King", "calories": 1250 },
       { "foodName": "Rodeo Burger", "calories": 1250 },
       { "foodName": "Big King", "calories": 530 },
-      {
-        "foodName": "Junior Whopper",
-        "calories": 310,
-        "correctedTerm": "Whopper Jr"
-      },
-      {
-        "foodName": "Whopper Junior",
-        "calories": 310,
-        "correctedTerm": "Whopper Jr"
-      },
-      {
-        "foodName": "Jr Whopper",
-        "calories": 310,
-        "correctedTerm": "Whopper Jr"
-      },
+
       { "foodName": "Whopper Jr", "foodType": "Burger", "calories": 310 },
       { "foodName": "Grilled Chicken Sandwich", "calories": 470 },
       { "foodName": "Grilled Chicken", "foodType": "Chicken", "calories": 470 },
@@ -861,20 +720,7 @@
         "sideItem": true,
         "ketchupItem": true
       },
-      {
-        "foodName": "Fries",
-        "calories": 380,
-        "correctedTerm": "Medium Fries",
-        "sideItem": true,
-        "ketchupItem": true
-      },
-      {
-        "foodName": "French Fries",
-        "calories": 380,
-        "correctedTerm": "Medium Fries",
-        "sideItem": true,
-        "ketchupItem": true
-      },
+
       {
         "foodName": "Medium Fries",
         "calories": 380,
@@ -905,13 +751,7 @@
         "sideItem": true,
         "ketchupItem": true
       },
-      {
-        "foodName": "Fry",
-        "calories": 380,
-        "correctedTerm": "Medium Fries",
-        "sideItem": true,
-        "ketchupItem": true
-      },
+
       {
         "foodName": "French Fry",
         "calories": 380,
@@ -942,13 +782,7 @@
         "sideItem": true,
         "ketchupItem": true
       },
-      {
-        "foodName": "Onion Rings",
-        "calories": 410,
-        "correctedTerm": "Medium Onion Rings",
-        "sideItem": true,
-        "ketchupItem": true
-      },
+
       {
         "foodName": "Medium Onion Rings",
         "calories": 410,
@@ -980,112 +814,61 @@
         "calories": 300,
         "breakfastItem": true
       },
-      {
-        "foodName": "Egg and Cheese Croissandwich",
-        "calories": 300,
-        "breakfastItem": true,
-        "correctedTerm": "Egg and Cheese Croissanwich"
-      },
+
       {
         "foodName": "Sausage Egg and Cheese Croissanwich",
         "foodType": "Breakfast",
         "calories": 470,
         "breakfastItem": true
       },
-      {
-        "foodName": "Sausage Egg and Cheese Croissandwich",
-        "calories": 470,
-        "breakfastItem": true,
-        "correctedTerm": "Sausage Egg and Cheese Croissanwich"
-      },
+
       {
         "foodName": "Ham Egg and Cheese Croissanwich",
         "foodType": "Breakfast",
         "calories": 330,
         "breakfastItem": true
       },
-      {
-        "foodName": "Ham Egg and Cheese Croissandwich",
-        "calories": 330,
-        "breakfastItem": true,
-        "correctedTerm": "Ham Egg and Cheese Croissanwich"
-      },
+
       {
         "foodName": "Bacon Egg and Cheese Croissanwich",
         "foodType": "Breakfast",
         "calories": 340,
         "breakfastItem": true
       },
-      {
-        "foodName": "Bacon Egg and Cheese Croissandwich",
-        "calories": 340,
-        "breakfastItem": true,
-        "correctedTerm": "Bacon Egg and Cheese Croissanwich"
-      },
+
       {
         "foodName": "Fully Loaded Croissanwich",
         "foodType": "Breakfast",
         "calories": 610,
         "breakfastItem": true
       },
-      {
-        "foodName": "Fully Loaded Croissandwich",
-        "calories": 610,
-        "breakfastItem": true,
-        "correctedTerm": "Fully Loaded Croissanwich"
-      },
+
       {
         "foodName": "Double Sausage King Croissanwich",
         "foodType": "Breakfast",
         "calories": 700,
         "breakfastItem": true
       },
-      {
-        "foodName": "Double Sausage King Croissandwich",
-        "calories": 700,
-        "breakfastItem": true,
-        "correctedTerm": "Double Sausage King Croissanwich"
-      },
-      {
-        "foodName": "King Croissanwich",
-        "calories": 700,
-        "breakfastItem": true,
-        "correctedTerm": "Double Sausage King Croissanwich"
-      },
+
       {
         "foodName": "Sausage and Bacon King Croissanwich",
         "calories": 580,
         "breakfastItem": true
       },
-      {
-        "foodName": "Sausage and Bacon King Croissandwich",
-        "calories": 580,
-        "breakfastItem": true,
-        "correctedTerm": "Sausage and Bacon King Croissanwich"
-      },
+
       {
         "foodName": "Ham and Sausage King Croissanwich",
         "calories": 530,
         "breakfastItem": true
       },
-      {
-        "foodName": "Ham and Sausage King Croissandwich",
-        "calories": 530,
-        "breakfastItem": true,
-        "correctedTerm": "Ham and Sausage King Croissanwich"
-      },
+
       {
         "foodName": "Sausage Biscuit",
         "calories": 390,
         "breakfastItem": true,
         "foodType": "Breakfast"
       },
-      {
-        "foodName": "Biscuit",
-        "calories": 390,
-        "breakfastItem": true,
-        "correctedTerm": "Sausage Biscuit"
-      },
+
       {
         "foodName": "Ham Egg and Cheese Biscuit",
         "calories": 370,
@@ -1113,13 +896,7 @@
         "breakfastItem": true,
         "sideItem": true
       },
-      {
-        "foodName": "Hash Browns",
-        "calories": 250,
-        "breakfastItem": true,
-        "sideItem": true,
-        "correctedTerm": "Small Hash Browns"
-      },
+
       {
         "foodName": "Small Hash Browns",
         "calories": 250,
@@ -1148,16 +925,6 @@
   {
     "restaurant": "Subway",
     "foodItems": [
-      {
-        "foodName": "Black Forest Ham",
-        "calories": 290,
-        "correctedTerm": "6 inch Black Forest Ham"
-      },
-      {
-        "foodName": "Black Forrest Ham",
-        "calories": 290,
-        "correctedTerm": "6 inch Black Forest Ham"
-      },
       { "foodName": "Six inch Black Forest Ham", "calories": 290 },
       {
         "foodName": "6 inch Black Forest Ham",
@@ -1215,11 +982,7 @@
         "calories": 700
       },
       { "foodName": "Rotisserie Chicken Sandwich", "calories": 350 },
-      {
-        "foodName": "Subway Club",
-        "calories": 310,
-        "correctedTerm": "6 inch Subway Club"
-      },
+
       {
         "foodName": "6 inch Subway Club",
         "foodType": "Six inch",
@@ -1228,21 +991,6 @@
       { "foodName": "12 inch Subway Club", "calories": 620 },
       { "foodName": "Footlong Subway Club", "calories": 620 },
       {
-        "foodName": "Chicken Teriyaki",
-        "calories": 370,
-        "correctedTerm": "6 inch Sweet Onion Chicken Teriyaki"
-      },
-      {
-        "foodName": "6 inch Chicken Teriyaki",
-        "calories": 370,
-        "correctedTerm": "6 inch Sweet Onion Chicken Teriyaki"
-      },
-      {
-        "foodName": "Sweet Onion Chicken Teriyaki",
-        "calories": 370,
-        "correctedTerm": "6 inch Sweet Onion Chicken Teriyaki"
-      },
-      {
         "foodName": "6 inch Sweet Onion Chicken Teriyaki",
         "foodType": "Six inch",
         "calories": 370
@@ -1250,12 +998,6 @@
       { "foodName": "12 inch Sweet Onion Chicken Teriyaki", "calories": 740 },
       { "foodName": "Footlong Teriyaki Chicken", "calories": 740 },
       { "foodName": "Footlong Sweet Onion Chicken Teriyaki", "calories": 740 },
-      {
-        "foodName": "Turkey Breast",
-        "foodType": "Turkey",
-        "calories": 280,
-        "correctedTerm": "6 inch Turkey Breast"
-      },
       { "foodName": "6 inch Turkey and Cheese", "calories": 280 },
       { "foodName": "Six inch Turkey and Cheese", "calories": 280 },
       {
@@ -1266,34 +1008,9 @@
       { "foodName": "12 inch Turkey Breast", "calories": 560 },
       { "foodName": "Footlong Turkey Breast", "calories": 560 },
       {
-        "foodName": "Foot long Turkey",
-        "calories": 560,
-        "correctedTerm": "Footlong Turkey Breast"
-      },
-      {
-        "foodName": "Veggie Delite",
-        "calories": 280,
-        "correctedTerm": "6 inch Veggie Delite"
-      },
-      {
-        "foodName": "Veggie Delight",
-        "calories": 280,
-        "correctedTerm": "6 inch Veggie Delite"
-      },
-      {
         "foodName": "6 inch Veggie Delite",
         "foodType": "Six inch",
         "calories": 280
-      },
-      {
-        "foodName": "Six inch Veggie Delite",
-        "calories": 280,
-        "correctedTerm": "6 inch Veggie Delite"
-      },
-      {
-        "foodName": "6 inch Veggie Delight",
-        "calories": 280,
-        "correctedTerm": "6 inch Veggie Delite"
       },
       { "foodName": "12 inch Veggie Delite", "calories": 560 },
       { "foodName": "Footlong Veggie Delite", "calories": 560 },
@@ -1332,16 +1049,7 @@
       },
       { "foodName": "12 inch Cold Cut Combo", "calories": 680 },
       { "foodName": "Footlong Cold Cut Combo", "calories": 680 },
-      {
-        "foodName": "Italian BMT",
-        "calories": 390,
-        "correctedTerm": "6 inch Italian BMT"
-      },
-      {
-        "foodName": "BMT",
-        "calories": 390,
-        "correctedTerm": "6 inch Italian BMT"
-      },
+
       {
         "foodName": "6 inch Italian BMT",
         "foodType": "Six inch",
@@ -1353,43 +1061,17 @@
       { "foodName": "6 inch Meatball Marinara", "calories": 460 },
       { "foodName": "12 inch Meatball Marinara", "calories": 920 },
       { "foodName": "Footlong Meatball Marinara", "calories": 920 },
-      {
-        "foodName": "Meatball Sub",
-        "calories": 460,
-        "correctedTerm": "6 inch Meatball Sub"
-      },
+
       { "foodName": "6 inch Meatball Sub", "calories": 460 },
-      {
-        "foodName": "6 inch Meatball",
-        "calories": 460,
-        "correctedTerm": "6 inch Meatball Sub"
-      },
       { "foodName": "12 inch Meatball Sub", "calories": 920 },
       { "foodName": "Footlong Meatball Sub", "calories": 920 },
-      {
-        "foodName": "Spicy Italian",
-        "calories": 470,
-        "correctedTerm": "6 inch Spicy Italian"
-      },
+
       { "foodName": "6 inch Spicy Italian", "calories": 470 },
       { "foodName": "12 inch Spicy Italian", "calories": 940 },
       { "foodName": "Footlong Spicy Italian", "calories": 940 },
-      {
-        "foodName": "Spicy Italian Footlong",
-        "calories": 940,
-        "correctedTerm": "Footlong Spicy Italian"
-      },
+
       { "foodName": "Spicy Italian Sub", "calories": 470 },
-      {
-        "foodName": "Steak and Cheese",
-        "calories": 470,
-        "correctedTerm": "6 inch Steak and Cheese"
-      },
-      {
-        "foodName": "Philly Cheese Steak",
-        "calories": 470,
-        "correctedTerm": "6 inch Steak and Cheese"
-      },
+
       { "foodName": "6 inch Steak and Cheese", "calories": 470 },
       { "foodName": "12 inch Steak and Cheese", "calories": 940 },
       { "foodName": "Footlong Steak and Cheese", "calories": 940 },
@@ -1483,12 +1165,7 @@
       { "foodName": "Baked Barbeque Chips", "calories": 130, "sideItem": true },
       { "foodName": "Chips", "calories": 160, "sideItem": true },
       { "foodName": "Apple Slices", "calories": 35, "sideItem": true },
-      {
-        "foodName": "Apple",
-        "calories": 35,
-        "sideItem": true,
-        "correctedTerm": "Apple Slices"
-      },
+
       { "foodName": "Potato Chips", "calories": 160, "sideItem": true },
       { "foodName": "Potato Chip", "calories": 160, "sideItem": true },
       { "foodName": "Lays Potato Chips", "calories": 160, "sideItem": true },
@@ -1638,26 +1315,7 @@
         "calories": 400
       },
       { "foodName": "Grilled Chicken Cool Wrap", "calories": 340 },
-      {
-        "foodName": "Chicken Wrap",
-        "calories": 340,
-        "correctedTerm": "Grilled Chicken Cool Wrap"
-      },
-      {
-        "foodName": "Chicken Cool Wrap",
-        "calories": 340,
-        "correctedTerm": "Grilled Chicken Cool Wrap"
-      },
-      {
-        "foodName": "Cool Wrap",
-        "calories": 340,
-        "correctedTerm": "Grilled Chicken Cool Wrap"
-      },
-      {
-        "foodName": "Wrap",
-        "calories": 340,
-        "correctedTerm": "Grilled Chicken Cool Wrap"
-      },
+
       {
         "foodName": "Grilled Chicken Market Salad",
         "calories": 470,
@@ -1724,27 +1382,7 @@
         "sideItem": true,
         "ketchupItem": true
       },
-      {
-        "foodName": "Waffles Fries",
-        "calories": 360,
-        "sideItem": true,
-        "ketchupItem": true,
-        "correctedTerm": "Waffle Fries"
-      },
-      {
-        "foodName": "Fries",
-        "calories": 360,
-        "sideItem": true,
-        "ketchupItem": true,
-        "correctedTerm": "Waffle Fries"
-      },
-      {
-        "foodName": "Large Fries",
-        "calories": 460,
-        "sideItem": true,
-        "ketchupItem": true,
-        "correctedTerm": "Large Waffle Fries"
-      },
+
       {
         "foodName": "Large Waffle Fries",
         "foodType": "Fries",
@@ -1834,50 +1472,17 @@
     "restaurant": "McDonalds",
     "foodItems": [
       { "foodName": "Big Mac", "foodType": "Burger", "calories": 540 },
-      {
-        "foodName": "Quarter Pounder",
-        "foodType": "Burger",
-        "calories": 540,
-        "correctedTerm": "Quarter Pounder with Cheese"
-      },
 
-      { "foodName": "Quarter Pounder Deluxe", "calories": 600 },
-      { "foodName": "Mushroom & Swiss Quarter Pounder", "calories": 590 },
-      {
-        "foodName": "Mushroom & Swiss Burger",
-        "calories": 590,
-        "correctedTerm": "Mushroom & Swiss Quarter Pounder"
-      },
-      { "foodName": "Grand Mac", "calories": 860 },
-      { "foodName": "Hamburger", "calories": 250 },
-      { "foodName": "Cheeseburger", "calories": 300 },
-      {
-        "foodName": "Cheese Burger",
-        "calories": 300,
-        "correctedTerm": "Cheeseburger"
-      },
       { "foodName": "2 Cheeseburgers", "calories": 600 },
-      {
-        "foodName": "2 Cheese burgers",
-        "calories": 600,
-        "correctedTerm": "2 Cheeseburgers"
-      },
+
       { "foodName": "McDouble", "calories": 380 },
       { "foodName": "Bacon McDouble", "calories": 450 },
       { "foodName": "Bacon Angus Beef Burger", "calories": 770 },
       { "foodName": "Bacon and Cheddar Angus Burger", "calories": 770 },
       { "foodName": "Double Cheeseburger", "calories": 430 },
-      {
-        "foodName": "Double Cheese Burger",
-        "calories": 430,
-        "correctedTerm": "Double Cheeseburger"
-      },
+
       { "foodName": "Triple Cheeseburger", "calories": 520 },
-      {
-        "foodName": "Triple Cheese Burger",
-        "calories": 520,
-        "correctedTerm": "Triple Cheeseburger"
-      },
+
       {
         "foodName": "Double Quarter Pounder with Cheese",
         "foodType": "Burger",
@@ -1885,90 +1490,17 @@
       },
       { "foodName": "Double Quarter Pound with Cheese", "calories": 770 },
       { "foodName": "Double Quarter Pounder", "calories": 770 },
-      {
-        "foodName": "Filet-o-Fish",
-        "calories": 390,
-        "correctedTerm": "Filet-o-Fish Sandwich"
-      },
+
       { "foodName": "Filet-o-Fish Sandwich", "calories": 390 },
-      {
-        "foodName": "Fish Sandwich",
-        "calories": 390,
-        "correctedTerm": "Filet-o-Fish Sandwich"
-      },
-      {
-        "foodName": "Fish Filet Sandwich",
-        "calories": 390,
-        "correctedTerm": "Filet-o-Fish Sandwich"
-      },
-      {
-        "foodName": "Fish Fillet",
-        "calories": 390,
-        "correctedTerm": "Filet-o-Fish Sandwich"
-      },
-      {
-        "foodName": "Mc Chicken",
-        "calories": 350,
-        "correctedTerm": "McChicken Sandwich"
-      },
-      {
-        "foodName": "McChicken",
-        "calories": 350,
-        "correctedTerm": "McChicken Sandwich"
-      },
+
       {
         "foodName": "McChicken Sandwich",
         "foodType": "Chicken",
         "calories": 350
       },
-      {
-        "foodName": "Classic Chicken Sandwich",
-        "calories": 350,
-        "correctedTerm": "McChicken Sandwich"
-      },
-      {
-        "foodName": "Chicken Sandwich",
-        "calories": 350,
-        "correctedTerm": "McChicken Sandwich"
-      },
-      { "foodName": "Hot and Spicy McChicken Sandwich", "calories": 360 },
-      {
-        "foodName": "Hot n Spicy McChicken",
-        "calories": 360,
-        "correctedTerm": "Hot and Spicy McChicken Sandwich"
-      },
-      {
-        "foodName": "Hot and Spicy McChicken",
-        "calories": 360,
-        "correctedTerm": "Hot and Spicy McChicken Sandwich"
-      },
+
       { "foodName": "Buttermilk Crispy Chicken Sandwich", "calories": 570 },
-      {
-        "foodName": "Buttermilk Crispy Chicken",
-        "calories": 570,
-        "correctedTerm": "Buttermilk Crispy Chicken Sandwich"
-      },
-      {
-        "foodName": "Buttermilk Chicken",
-        "calories": 570,
-        "correctedTerm": "Buttermilk Crispy Chicken Sandwich"
-      },
-      {
-        "foodName": "Buttermilk Chicken Sandwich",
-        "calories": 570,
-        "correctedTerm": "Buttermilk Crispy Chicken Sandwich"
-      },
-      {
-        "foodName": "Crispy Chicken Sandwich",
-        "foodType": "Chicken",
-        "calories": 570,
-        "correctedTerm": "Buttermilk Crispy Chicken Sandwich"
-      },
-      {
-        "foodName": "Original Chicken Sandwich",
-        "calories": 570,
-        "correctedTerm": "Buttermilk Crispy Chicken Sandwich"
-      },
+
       { "foodName": "Artisan Grilled Chicken Sandwich", "calories": 380 },
       {
         "foodName": "Grilled Chicken Sandwich",
@@ -2002,21 +1534,7 @@
         "foodType": "Chicken Tenders",
         "calories": 490
       },
-      {
-        "foodName": "Four Piece Buttermilk Crispy Tenders",
-        "calories": 490,
-        "correctedTerm": "4 Piece Buttermilk Crispy Tenders"
-      },
-      {
-        "foodName": "4 Piece Buttermilk Crispy Chicken Tenders",
-        "calories": 490,
-        "correctedTerm": "4 Piece Buttermilk Crispy Tenders"
-      },
-      {
-        "foodName": "Four Piece Buttermilk Crispy Chicken Tenders",
-        "calories": 490,
-        "correctedTerm": "4 Piece Buttermilk Crispy Tenders"
-      },
+
       { "foodName": "4 Piece Crispy Tenders", "calories": 490 },
       { "foodName": "4 Piece Chicken Tenders", "calories": 490 },
       { "foodName": "Four Piece Chicken Tenders", "calories": 490 },
@@ -2025,11 +1543,7 @@
         "foodType": "Chicken Tenders",
         "calories": 730
       },
-      {
-        "foodName": "Six Piece Buttermilk Crispy Tenders",
-        "calories": 730,
-        "correctedTerm": "6 Piece Buttermilk Crispy Tenders"
-      },
+
       { "foodName": "6 Piece Crispy Tenders", "calories": 730 },
       { "foodName": "6 Piece Chicken Tenders", "calories": 730 },
       { "foodName": "Six Piece Chicken Tenders", "calories": 730 },
@@ -2068,13 +1582,7 @@
         "sideItem": true,
         "dressingItem": true
       },
-      {
-        "foodName": "Southwest Buttermilk Crispy Chicken",
-        "calories": 520,
-        "sideItem": true,
-        "dressingItem": true,
-        "correctedTerm": "Southwest Buttermilk Crispy Chicken Salad"
-      },
+
       {
         "foodName": "Southwest Grilled Chicken Salad",
         "foodType": "Salad",
@@ -2082,20 +1590,7 @@
         "sideItem": true,
         "dressingItem": true
       },
-      {
-        "foodName": "Grilled Chicken Salad",
-        "calories": 350,
-        "correctedTerm": "Southwest Grilled Chicken Salad",
-        "sideItem": true,
-        "dressingItem": true
-      },
-      {
-        "foodName": "Southwest Salad",
-        "calories": 350,
-        "correctedTerm": "Southwest Grilled Chicken Salad",
-        "sideItem": true,
-        "dressingItem": true
-      },
+
       {
         "foodName": "Side Salad",
         "foodType": "Salad",
@@ -2103,28 +1598,7 @@
         "sideItem": true,
         "dressingItem": true
       },
-      {
-        "foodName": "Ranch Snack Wrap",
-        "calories": 360,
-        "correctedTerm": "Ranch Chicken Snack Wrap"
-      },
-      { "foodName": "Ranch Chicken Snack Wrap", "calories": 360 },
-      {
-        "foodName": "Crispy Ranch Snack Wrap",
-        "calories": 360,
-        "correctedTerm": "Ranch Chicken Snack Wrap"
-      },
-      {
-        "foodName": "Crispy Chicken Snack Wrap",
-        "calories": 360,
-        "correctedTerm": "Ranch Chicken Snack Wrap"
-      },
-      { "foodName": "Grilled Chicken Snack Wrap", "calories": 270 },
-      {
-        "foodName": "Chicken Snack Wrap",
-        "calories": 270,
-        "correctedTerm": "Grilled Chicken Snack Wrap"
-      },
+
       {
         "foodName": "Fruit 'N Yogurt Parfait",
         "calories": 150,
@@ -2142,12 +1616,7 @@
         "calories": 260,
         "breakfastItem": true
       },
-      {
-        "foodName": "Egg White Delight",
-        "calories": 260,
-        "breakfastItem": true,
-        "correctedTerm": "Egg White Delight McMuffin"
-      },
+
       {
         "foodName": "Sausage McMuffin",
         "calories": 400,
@@ -2217,36 +1686,14 @@
         "calories": 550,
         "breakfastItem": true
       },
-      {
-        "foodName": "Sausage, Egg, & Cheese Mcgriddle",
-        "calories": 550,
-        "correctedTerm": "Sausage Egg and Cheese McGriddle",
-        "breakfastItem": true
-      },
-      {
-        "foodName": "Sausage Egg McGriddle",
-        "calories": 550,
-        "correctedTerm": "Sausage Egg and Cheese McGriddle",
-        "breakfastItem": true
-      },
-      {
-        "foodName": "McGriddle",
-        "calories": 550,
-        "correctedTerm": "Sausage Egg and Cheese McGriddle",
-        "breakfastItem": true
-      },
+
       {
         "foodName": "Chicken McGriddles",
         "calories": 390,
         "foodType": "Breakfast",
         "breakfastItem": true
       },
-      {
-        "foodName": "Chicken McGriddle",
-        "calories": 390,
-        "correctedTerm": "Chicken McGriddles",
-        "breakfastItem": true
-      },
+
       {
         "foodName": "Bacon Egg and Cheese Bagel",
         "calories": 550,
@@ -2299,41 +1746,7 @@
         "sideItem": true,
         "breakfastItem": true
       },
-      {
-        "foodName": "Fries",
-        "correctedTerm": "Medium Fries",
-        "calories": 340,
-        "sideItem": true,
-        "ketchupItem": true
-      },
-      {
-        "foodName": "Fry",
-        "correctedTerm": "Medium Fries",
-        "calories": 340,
-        "sideItem": true,
-        "ketchupItem": true
-      },
-      {
-        "foodName": "Frys",
-        "correctedTerm": "Medium Fries",
-        "calories": 340,
-        "sideItem": true,
-        "ketchupItem": true
-      },
-      {
-        "foodName": "French Fries",
-        "correctedTerm": "Medium Fries",
-        "calories": 340,
-        "sideItem": true,
-        "ketchupItem": true
-      },
-      {
-        "foodName": "French Fry",
-        "correctedTerm": "Medium Fries",
-        "calories": 340,
-        "sideItem": true,
-        "ketchupItem": true
-      },
+
       {
         "foodName": "Medium Fries",
         "calories": 340,
@@ -2352,13 +1765,7 @@
         "sideItem": true,
         "ketchupItem": true
       },
-      {
-        "foodName": "Small French Fries",
-        "calories": 230,
-        "sideItem": true,
-        "ketchupItem": true,
-        "correctedTerm": "Small Fries"
-      },
+
       {
         "foodName": "Small Fry",
         "calories": 230,
@@ -2429,11 +1836,7 @@
       { "foodName": "Single", "foodType": "Burger", "calories": 550 },
       { "foodName": "Double", "foodType": "Burger", "calories": 790 },
       { "foodName": "Triple", "calories": 1070 },
-      {
-        "foodName": "Daves Single",
-        "calories": 550,
-        "correctedTerm": "Dave's Single"
-      },
+
       { "foodName": "Daves Double", "calories": 790 },
       { "foodName": "Dave’s Triple", "calories": 1070 },
       { "foodName": "Son of Baconator", "calories": 610 },
@@ -2446,17 +1849,9 @@
         "calories": 500
       },
       { "foodName": "Homestyle Chicken Sandwich", "calories": 500 },
-      {
-        "foodName": "Chicken Sandwich",
-        "calories": 500,
-        "correctedTerm": "Homestyle Chicken Sandwich"
-      },
+
       { "foodName": "Spicy Chicken Sandwich", "calories": 490 },
-      {
-        "foodName": "Spicey Chicken Sandwich",
-        "calories": 490,
-        "correctedTerm": "Spicy Chicken Sandwich"
-      },
+
       { "foodName": "Premium Cod Sandwich", "calories": 430 },
       { "foodName": "Double Stack", "calories": 390 },
       {
@@ -2465,16 +1860,7 @@
         "calories": 370
       },
       { "foodName": "Grilled Chicken Go Wrap", "calories": 270 },
-      {
-        "foodName": "Grilled Chicken Go Wraps",
-        "calories": 270,
-        "correctedTerm": "Grilled Chicken Go Wrap"
-      },
-      {
-        "foodName": "Toasted Chicken Wrap",
-        "calories": 270,
-        "correctedTerm": "Grilled Chicken Go Wrap"
-      },
+
       {
         "foodName": "Junior Bacon Cheeseburger",
         "foodType": "Burger",
@@ -2491,26 +1877,7 @@
         "foodType": "Burger",
         "calories": 280
       },
-      {
-        "foodName": "Junior Cheese Burger",
-        "calories": 280,
-        "correctedTerm": "Junior Cheeseburger"
-      },
-      {
-        "foodName": "Jr Cheeseburger",
-        "calories": 280,
-        "correctedTerm": "Junior Cheeseburger"
-      },
-      {
-        "foodName": "Jr. Cheeseburger",
-        "calories": 280,
-        "correctedTerm": "Junior Cheeseburger"
-      },
-      {
-        "foodName": "Junior Burger",
-        "calories": 280,
-        "correctedTerm": "Junior Cheeseburger"
-      },
+
       { "foodName": "Homestyle Chicken Wrap", "calories": 340 },
       { "foodName": "Grilled Chicken Wrap", "calories": 340 },
       { "foodName": "Spicy Chicken Wrap", "calories": 340 },
@@ -2633,12 +2000,7 @@
         "calories": 560,
         "sideItem": true
       },
-      {
-        "foodName": "Chicken Salad",
-        "calories": 560,
-        "sideItem": true,
-        "correctedTerm": "Apple Pecan Chicken Salad"
-      },
+
       {
         "foodName": "Spicy Caesar Chicken Salad",
         "calories": 720,
@@ -2650,12 +2012,7 @@
         "calories": 720,
         "sideItem": true
       },
-      {
-        "foodName": "Caesar Salad",
-        "calories": 230,
-        "sideItem": true,
-        "correctedTerm": "Caesar Side Salad"
-      },
+
       { "foodName": "Caesar Side Salad", "calories": 230, "sideItem": true },
       {
         "foodName": "Garden Side Salad",
@@ -2664,14 +2021,7 @@
         "sideItem": true,
         "dressingItem": true
       },
-      {
-        "foodName": "Side Salad",
-        "foodType": "Salad",
-        "calories": 110,
-        "correctedTerm": "Garden Side Salad",
-        "sideItem": true,
-        "dressingItem": true
-      },
+
       {
         "foodName": "Frosty",
         "calories": 393,
@@ -2745,32 +2095,9 @@
       { "foodName": "Potato Burrito", "calories": 490 },
       { "foodName": "Chipotle Chicken Loaded Griller", "calories": 340 },
       { "foodName": "Combo Burrito", "foodType": "Burrito", "calories": 450 },
-      {
-        "foodName": "Beef and Bean Burrito",
-        "calories": 450,
-        "correctedTerm": "Combo Burrito"
-      },
+
       { "foodName": "Loaded Potato Griller", "calories": 410 },
-      {
-        "foodName": "Loaded Potato Grilled",
-        "calories": 410,
-        "correctedTerm": "Loaded Potato Griller"
-      },
-      {
-        "foodName": "Quesarito",
-        "calories": 640,
-        "correctedTerm": "Chicken Quesarito"
-      },
-      {
-        "foodName": "Queserito",
-        "calories": 640,
-        "correctedTerm": "Chicken Quesarito"
-      },
-      {
-        "foodName": "Quesorito",
-        "calories": 640,
-        "correctedTerm": "Chicken Quesarito"
-      },
+
       { "foodName": "Beef Quesarito", "calories": 650 },
       {
         "foodName": "Chicken Quesarito",
@@ -2778,11 +2105,7 @@
         "calories": 640
       },
       { "foodName": "Steak Quesarito", "calories": 630 },
-      {
-        "foodName": "Steak Quesorito",
-        "calories": 630,
-        "correctedTerm": "Steak Quesarito"
-      },
+
       {
         "foodName": "Shredded Chicken Burrito",
         "protein": "chicken",
@@ -2832,31 +2155,6 @@
       { "foodName": "Cheesy Bean and Rice Burrito", "calories": 430 },
       { "foodName": "Cinnabon Delights", "calories": 160, "sideItem": true },
       { "foodName": "Cinabon Delight", "calories": 160, "sideItem": true },
-      {
-        "foodName": "Cinabon Delight",
-        "calories": 160,
-        "sideItem": true,
-        "correctedTerm": "Cinnabon Delights"
-      },
-      {
-        "foodName": "Cinnbons",
-        "calories": 160,
-        "sideItem": true,
-        "correctedTerm": "Cinnabon Delights"
-      },
-      { "foodName": "Cinnamon Twists", "calories": 170, "sideItem": true },
-      {
-        "foodName": "Cinnamon Twist",
-        "calories": 170,
-        "sideItem": true,
-        "correctedTerm": "Cinnamon Twists"
-      },
-      {
-        "foodName": "Twists",
-        "calories": 170,
-        "sideItem": true,
-        "correctedTerm": "Cinnamon Twists"
-      },
       { "foodName": "Shredded Chicken Mini Quesadilla", "calories": 200 },
       {
         "foodName": "Spicy Potato Soft Taco",
@@ -2865,21 +2163,6 @@
       },
       { "foodName": "Spicy Tostada", "calories": 210 },
       { "foodName": "Triple Layer Nachos", "calories": 320 },
-      {
-        "foodName": "3 Layer Nachos",
-        "calories": 320,
-        "correctedTerm": "Triple Layer Nachos"
-      },
-      {
-        "foodName": "Triple Layer Nacho",
-        "calories": 320,
-        "correctedTerm": "Triple Layer Nachos"
-      },
-      {
-        "foodName": "3 Layer Nacho",
-        "calories": 320,
-        "correctedTerm": "Triple Layer Nachos"
-      },
       {
         "foodName": "Fresco Bean Burrito",
         "protein": "bean",
@@ -2892,22 +2175,14 @@
         "foodType": "Burrito",
         "calories": 340
       },
-      {
-        "foodName": "Fresco Chicken Burrito",
-        "calories": 340,
-        "correctedTerm": "Fresco Chicken Burrito Supreme"
-      },
+
       {
         "foodName": "Fresco Steak Burrito Supreme",
         "protein": "steak",
         "foodType": "Burrito",
         "calories": 340
       },
-      {
-        "foodName": "Fresco Steak Burrito",
-        "calories": 340,
-        "correctedTerm": "Fresco Steak Burrito Supreme"
-      },
+
       {
         "foodName": "Beef Fresco Crunchy Taco",
         "foodType": "Taco",
@@ -2941,11 +2216,7 @@
         "foodType": "Chalupa",
         "calories": 350
       },
-      {
-        "foodName": "Beef Chalupa",
-        "calories": 350,
-        "correctedTerm": "Beef Chalupa Supreme"
-      },
+
       {
         "foodName": "Chicken Chalupa Supreme",
         "foodType": "Chalupa",
@@ -3023,37 +2294,7 @@
       },
       { "foodName": "Nachos BellGrande", "calories": 760 },
       { "foodName": "Nachos Bell Grande", "calories": 760 },
-      {
-        "foodName": "Beef Nacho",
-        "calories": 760,
-        "correctedTerm": "Nachos Bell Grande"
-      },
-      {
-        "foodName": "Nachos Bel Grande",
-        "calories": 760,
-        "correctedTerm": "Nachos Bell Grande"
-      },
-      {
-        "foodName": "Nacho Bell Grande",
-        "calories": 760,
-        "correctedTerm": "Nachos Bell Grande"
-      },
-      { "foodName": "Nachos Supreme", "calories": 440 },
-      {
-        "foodName": "Nacho Supreme",
-        "calories": 440,
-        "correctedTerm": "Nachos Supreme"
-      },
-      {
-        "foodName": "Nachos",
-        "calories": 440,
-        "correctedTerm": "Nachos Supreme"
-      },
-      {
-        "foodName": "Quesadilla",
-        "calories": 460,
-        "correctedTerm": "Cheese Quesadilla"
-      },
+
       {
         "foodName": "Cheese Quesadilla",
         "protein": "cheese",
@@ -3091,34 +2332,12 @@
       { "foodName": "Doritos Locos Taco", "calories": 170 },
       { "foodName": "Dorito Loco Taco", "calories": 170 },
       { "foodName": "Cool Ranch Doritos Locos Taco Supreme", "calories": 190 },
-      {
-        "foodName": "Hard Shell Taco",
-        "calories": 170,
-        "correctedTerm": "Beef Hard Shell Taco"
-      },
+
       { "foodName": "Beef Hard Shell Taco", "calories": 170 },
-      {
-        "foodName": "Beef Taco",
-        "calories": 170,
-        "correctedTerm": "Beef Hard Shell Taco"
-      },
-      {
-        "foodName": "Ground Beef Taco",
-        "calories": 170,
-        "correctedTerm": "Beef Hard Shell Taco"
-      },
-      {
-        "foodName": "Ground Beef Hard Shell Taco",
-        "calories": 170,
-        "correctedTerm": "Beef Hard Shell Taco"
-      },
+
       { "foodName": "Crunchy Taco", "calories": 170 },
       { "foodName": "Crunchy Taco Supreme", "calories": 190 },
-      {
-        "foodName": "Beef Taco Supreme",
-        "calories": 190,
-        "correctedTerm": "Crunchy Taco Supreme"
-      },
+
       { "foodName": "Double Decker Taco", "calories": 320 },
       { "foodName": "Double Decker Taco Supreme", "calories": 340 },
       { "foodName": "Fiery Doritos Double Decker Taco", "calories": 320 },
@@ -3129,11 +2348,7 @@
         "foodType": "Taco",
         "calories": 200
       },
-      {
-        "foodName": "Steak Taco",
-        "calories": 200,
-        "correctedTerm": "Grilled Steak Soft Taco"
-      },
+
       {
         "foodName": "Nacho Cheese Doritos Double Decker Taco",
         "calories": 320
@@ -3149,22 +2364,9 @@
         "foodType": "taco",
         "calories": 180
       },
-      {
-        "foodName": "Ground Beef Soft Taco",
-        "calories": 180,
-        "correctedTerm": "Beef Soft Taco"
-      },
+
       { "foodName": "Chicken Soft Taco", "calories": 170 },
-      {
-        "foodName": "Chicken Soft Tacos",
-        "calories": 170,
-        "correctedTerm": "Chicken Soft Taco"
-      },
-      {
-        "foodName": "Chicken Taco",
-        "calories": 170,
-        "correctedTerm": "Chicken Soft Taco"
-      },
+
       {
         "foodName": "Beef Soft Taco Supreme",
         "protein": "beef",
@@ -3232,12 +2434,7 @@
       },
       { "foodName": "Seasoned Rice", "calories": 120, "sideItem": true },
       { "foodName": "Black Beans", "calories": 80, "sideItem": true },
-      {
-        "foodName": "Beans",
-        "calories": 80,
-        "sideItem": true,
-        "correctedTerm": "Black Beans"
-      },
+
       { "foodName": "Nacho Fries", "calories": 320, "sideItem": true },
       { "foodName": "Chips and Salsa", "calories": 180, "sideItem": true },
       { "foodName": "Chips", "calories": 180, "sideItem": true },
@@ -3269,22 +2466,7 @@
         "foodType": "Roast Beef"
       },
       { "foodName": "Classic Beef and Cheddar", "calories": 450 },
-      {
-        "foodName": "Classic Beef n Cheddar",
-        "calories": 450,
-        "correctedTerm": "Classic Beef and Cheddar"
-      },
-      {
-        "foodName": "Beef and Cheddar",
-        "calories": 450,
-        "correctedTerm": "Classic Beef and Cheddar",
-        "foodType": "Roast Beef"
-      },
-      {
-        "foodName": "Beef n Cheddar",
-        "calories": 450,
-        "correctedTerm": "Classic Beef and Cheddar"
-      },
+
       { "foodName": "Mid Beef and Cheddar", "calories": 450 },
       {
         "foodName": "Double Beef and Cheddar",
@@ -3304,11 +2486,7 @@
         "calories": 750,
         "foodType": "Roast Beef"
       },
-      {
-        "foodName": "Half Pound French Dip",
-        "calories": 750,
-        "correctedTerm": "Half Pound French Dip and Swiss"
-      },
+
       { "foodName": "Three Cheese Steak", "calories": 650 },
       { "foodName": "Fire Roasted Philly", "calories": 640 },
       { "foodName": "Philly Cheese Steak", "calories": 640 },
@@ -3340,7 +2518,7 @@
       { "foodName": "Loaded Italian Sub", "calories": 680 },
       { "foodName": "Loaded Italian Subs", "calories": 680 },
       { "foodName": "Reuben", "calories": 680 },
-      { "foodName": "Rueben", "calories": 680, "correctedTerm": "Reuben" },
+
       {
         "foodName": "Buttermilk Chicken",
         "foodType": "Chicken",
@@ -3511,11 +2689,7 @@
         "foodType": "Slider"
       },
       { "foodName": "Pizza Slider", "calories": 300, "foodType": "Slider" },
-      {
-        "foodName": "Roast Beef Slider",
-        "calories": 240,
-        "correctedTerm": "Roast Beef 'n Cheese Slider"
-      },
+
       { "foodName": "Roast Beef and Cheese Slider", "calories": 240 },
       { "foodName": "Roast Beef 'n Cheese Slider", "calories": 240 },
       { "foodName": "Turkey and Cheese Slider", "calories": 200 },
@@ -3525,11 +2699,7 @@
         "calories": 570,
         "foodType": "Fish"
       },
-      {
-        "foodName": "Fish Sandwich",
-        "calories": 570,
-        "correctedTerm": "Crispy Fish Sandwich"
-      },
+
       {
         "foodName": "Crispy Fish Flatbread",
         "calories": 590,
@@ -3541,11 +2711,7 @@
         "foodType": "Fish"
       },
       { "foodName": "Nashville Hot Fish", "calories": 540, "foodType": "Fish" },
-      {
-        "foodName": "Nashville Hot Fish Sandwich",
-        "calories": 540,
-        "correctedTerm": "Nashville Hot Fish"
-      },
+
       {
         "foodName": "Kings Hawaiian Nashville Hot Fish Deluxe",
         "calories": 670,
@@ -3561,11 +2727,7 @@
       { "foodName": "Thick Burger", "calories": 780 },
       { "foodName": "Thickburger", "foodType": "Burger", "calories": 780 },
       { "foodName": "Original Thickburger", "calories": 780 },
-      {
-        "foodName": "Veggie",
-        "calories": 550,
-        "correctedTerm": "Veggie Thickburger"
-      },
+
       {
         "foodName": "Veggie Thickburger",
         "foodType": "Burger",
@@ -3587,11 +2749,7 @@
       { "foodName": "Frisco Burger", "calories": 840 },
       { "foodName": "Double Thickburger", "calories": 1130 },
       { "foodName": "Monster Thickburger", "calories": 1300 },
-      {
-        "foodName": "Monster Burger",
-        "calories": 1300,
-        "correctedTerm": "Monster Thickburger"
-      },
+
       { "foodName": "Quarter Pound Thickburger", "calories": 530 },
       { "foodName": "Quarter Pound Cheeseburger", "calories": 440 },
       { "foodName": "Charbroiled Chicken Club Sandwich", "calories": 560 },
@@ -3652,27 +2810,7 @@
         "sideItem": true,
         "ketchupItem": true
       },
-      {
-        "foodName": "French Fries",
-        "calories": 490,
-        "correctedTerm": "Medium French Fries",
-        "sideItem": true,
-        "ketchupItem": true
-      },
-      {
-        "foodName": "Fries",
-        "calories": 490,
-        "correctedTerm": "Medium French Fries",
-        "sideItem": true,
-        "ketchupItem": true
-      },
-      {
-        "foodName": "French Fry",
-        "calories": 490,
-        "correctedTerm": "Medium French Fries",
-        "sideItem": true,
-        "ketchupItem": true
-      },
+
       {
         "foodName": "Large French Fries",
         "calories": 530,
@@ -3774,12 +2912,7 @@
         "foodType": "Breakfast",
         "breakfastItem": true
       },
-      {
-        "foodName": "Sausage Cheese Biscuit",
-        "calories": 790,
-        "breakfastItem": true,
-        "correctedTerm": "Sausge, Egg, and Cheese Biscuit"
-      },
+
       {
         "foodName": "Country Ham Biscuit",
         "calories": 500,
@@ -3889,12 +3022,7 @@
         "foodType": "Breakfast",
         "sideItem": true
       },
-      {
-        "foodName": "Hash Browns",
-        "calories": 370,
-        "sideItem": true,
-        "correctedTerm": "Hash Rounds"
-      },
+
       { "foodName": "Large Hash Rounds", "calories": 510, "sideItem": true }
     ]
   },
@@ -3911,11 +3039,7 @@
       },
       { "foodName": "Bacon Cheeseburger all the way", "calories": 970 },
       { "foodName": "Little Hamburger", "foodType": "Burger", "calories": 480 },
-      {
-        "foodName": "Little Burger",
-        "calories": 480,
-        "correctedTerm": "Little Hamburger"
-      },
+
       {
         "foodName": "Little Cheeseburger",
         "foodType": "Burger",
@@ -3964,20 +3088,7 @@
         "sideItem": true,
         "ketchupItem": true
       },
-      {
-        "foodName": "French Fries",
-        "calories": 953,
-        "correctedTerm": "Regular French Fries",
-        "sideItem": true,
-        "ketchupItem": true
-      },
-      {
-        "foodName": "Fries",
-        "calories": 953,
-        "correctedTerm": "Regular French Fries",
-        "sideItem": true,
-        "ketchupItem": true
-      },
+
       {
         "foodName": "Regular French Fries",
         "calories": 953,
@@ -4002,33 +3113,24 @@
     "restaurant": "In-N-Out",
     "foodItems": [
       { "foodName": "Hamburger", "foodType": "Burger", "calories": 390 },
-      { "foodName": "Burger", "calories": 670, "correctedTerm": "Hamburger" },
+
       { "foodName": "Cheeseburger", "foodType": "Burger", "calories": 480 },
       { "foodName": "Double Double", "foodType": "Burger", "calories": 670 },
       { "foodName": "Double-Double", "calories": 670 },
-      {
-        "foodName": "Double Double Burger",
-        "calories": 670,
-        "correctedTerm": "Double Double"
-      },
-      {
-        "foodName": "Double",
-        "calories": 670,
-        "correctedTerm": "Double Double"
-      },
+
       { "foodName": "Double Meat", "foodType": "Secret Menu", "calories": 560 },
       {
         "foodName": "Three by Three",
         "foodType": "Secret Menu",
         "calories": 860
       },
-      { "foodName": "3x3", "calories": 860, "correctedTerm": "Three by Three" },
+
       {
         "foodName": "Four by Four",
         "foodType": "Secret Menu",
         "calories": 1050
       },
-      { "foodName": "4x4", "calories": 1050, "correctedTerm": "Four by Four" },
+
       {
         "foodName": "Grilled Cheese",
         "foodType": "Secret Menu",
@@ -4045,13 +3147,7 @@
         "sideItem": true,
         "ketchupItem": true
       },
-      {
-        "foodName": "Fries",
-        "calories": 395,
-        "correctedTerm": "French Fries",
-        "sideItem": true,
-        "ketchupItem": true
-      },
+
       {
         "foodName": "Chocolate Shake",
         "foodType": "Shake",
@@ -4097,11 +3193,7 @@
         "calories": 680
       },
       { "foodName": "Burger with Mustard", "calories": 670 },
-      {
-        "foodName": "Cheese burger",
-        "calories": 730,
-        "correctedTerm": "Cheeseburger"
-      },
+
       { "foodName": "Cheeseburger with Ketchup", "calories": 750 },
       { "foodName": "Cheeseburger with Mayo", "calories": 780 },
       { "foodName": "Cheeseburger with Mustard", "calories": 730 },
@@ -4113,11 +3205,7 @@
         "calories": 1160
       },
       { "foodName": "Double Cheeseburger with Mayo", "calories": 1280 },
-      {
-        "foodName": "Double Cheese burger",
-        "calories": 1160,
-        "correctedTerm": "Double Cheeseburger with Ketchup"
-      },
+
       {
         "foodName": "Jalapeno Double Cheeseburger with Mustard",
         "calories": 1140
@@ -4190,13 +3278,7 @@
         "foodType": "Hot Dog",
         "calories": 340
       },
-      {
-        "foodName": "Fries",
-        "calories": 290,
-        "correctedTerm": "Medium Fries",
-        "sideItem": true,
-        "ketchupItem": true
-      },
+
       {
         "foodName": "Regular Fries",
         "calories": 290,
@@ -4209,13 +3291,7 @@
         "sideItem": true,
         "ketchupItem": true
       },
-      {
-        "foodName": "Fries",
-        "calories": 290,
-        "correctedTerm": "Medium Fries",
-        "sideItem": true,
-        "ketchupItem": true
-      },
+
       {
         "foodName": "Small Fries",
         "calories": 250,
@@ -4245,13 +3321,7 @@
         "calories": 450,
         "sideItem": true
       },
-      {
-        "foodName": "Tots",
-        "calories": 360,
-        "correctedTerm": "Medium Tots",
-        "sideItem": true,
-        "ketchupItem": true
-      },
+
       {
         "foodName": "Medium Tots",
         "calories": 360,
@@ -4307,27 +3377,14 @@
         "carbs": 13,
         "sodium": 590
       },
-      {
-        "foodName": "Chicken and Green Beans",
-        "calories": 190,
-        "carbs": 13,
-        "sodium": 590,
-        "correctedTerm": "String Bean Chicken Breast"
-      },
+
       {
         "foodName": "Sweet Fire Chicken Breast",
         "calories": 380,
         "carbs": 47,
         "sodium": 320
       },
-      {
-        "foodName": "Sweet Fire Chicken",
-        "foodType": "Entree",
-        "calories": 380,
-        "carbs": 47,
-        "sodium": 320,
-        "correctedTerm": "Sweet Fire Chicken Breast"
-      },
+
       {
         "foodName": "Kung Pao Chicken",
         "foodType": "Entree",
@@ -4349,13 +3406,7 @@
         "carbs": 15,
         "sodium": 1130
       },
-      {
-        "foodName": "Black Peper Chicken",
-        "calories": 280,
-        "carbs": 15,
-        "sodium": 1130,
-        "correctedTerm": "Black Pepper Chicken"
-      },
+
       {
         "foodName": "Grilled Teriyaki Chicken",
         "calories": 300,
@@ -4403,13 +3454,7 @@
         "carbs": 35,
         "sodium": 440
       },
-      {
-        "foodName": "Walnut Shrimp",
-        "calories": 360,
-        "carbs": 35,
-        "sodium": 440,
-        "correctedTerm": "Honey Walnut Shrimp"
-      },
+
       {
         "foodName": "Eggplant Tofu",
         "foodType": "Entree",
@@ -4438,20 +3483,7 @@
         "carbs": 16,
         "sodium": 540
       },
-      {
-        "foodName": "Mixed Vegetable",
-        "calories": 80,
-        "carbs": 16,
-        "sodium": 540,
-        "correctedTerm": "Mixed Vegetables"
-      },
-      {
-        "foodName": "Mix Vegetable",
-        "calories": 80,
-        "carbs": 16,
-        "sodium": 540,
-        "correctedTerm": "Mixed Vegetables"
-      },
+
       {
         "foodName": "White Steamed Rice",
         "calories": 380,
@@ -4484,13 +3516,7 @@
         "carbs": 83,
         "sodium": 430
       },
-      {
-        "foodName": "Chow Mein and White Rice",
-        "calories": 445,
-        "carbs": 83,
-        "sodium": 430,
-        "correctedTerm": "Half Chow Mein and White Rice"
-      },
+
       {
         "foodName": "Chicken Potsticker",
         "foodType": "Appetizers",
@@ -4556,11 +3582,7 @@
         "foodType": "Burger",
         "calories": 325
       },
-      {
-        "foodName": "Hamburger",
-        "calories": 325,
-        "correctedTerm": "Regular Hamburger"
-      },
+
       { "foodName": "Huge Hamburger", "foodType": "Burger", "calories": 510 },
       { "foodName": "Big Double", "foodType": "Burger", "calories": 311 },
       { "foodName": "Chicken Breast", "foodType": "Chicken", "calories": 377 },
@@ -4629,26 +3651,14 @@
         "sideItem": true,
         "ketchupItem": true
       },
-      {
-        "foodName": "Large Onion Rings",
-        "calories": 256,
-        "sideItem": true,
-        "ketchupItem": true,
-        "correctedTerm": "Onion Rings Full Order"
-      },
+
       {
         "foodName": "Onion Rings Side Order",
         "calories": 128,
         "sideItem": true,
         "ketchupItem": true
       },
-      {
-        "foodName": "Onion Rings",
-        "calories": 128,
-        "sideItem": true,
-        "ketchupItem": true,
-        "correctedTerm": "Onion Rings Side Order"
-      },
+
       {
         "foodName": "Corn Dog",
         "calories": 220,
@@ -4661,12 +3671,7 @@
         "sideItem": true,
         "ketchupItem": true
       },
-      {
-        "foodName": "Chili",
-        "calories": 164,
-        "sideItem": true,
-        "correctedTerm": "Side of Chili"
-      },
+
       { "foodName": "Side of Chili", "calories": 164, "sideItem": true },
       {
         "foodName": "Hushpuppies Full Order",
@@ -4678,21 +3683,10 @@
         "calories": 300,
         "sideItem": true
       },
-      {
-        "foodName": "Hushpuppies",
-        "calories": 300,
-        "sideItem": true,
-        "correctedTerm": "Hushpuppies Side Order"
-      },
+
       { "foodName": "Large Fries", "calories": 694, "sideItem": true },
       { "foodName": "Regular Fries", "calories": 347, "sideItem": true },
-      { "foodName": "Cook Out Fries", "calories": 465, "sideItem": true },
-      {
-        "foodName": "Fries",
-        "calories": 465,
-        "sideItem": true,
-        "correctedTerm": "Cook Out Fries"
-      }
+      { "foodName": "Cook Out Fries", "calories": 465, "sideItem": true }
     ]
   }
 ]
