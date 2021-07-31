@@ -127,15 +127,15 @@ class App extends Component {
   render() {
     return (
       <div className="container2">
-          <NavBar
-            cals={this.state.totalCal}
-            foodList={this.state.foodList}
-            onDeleteItem={this.handleDeleteItem}
-            onAddItem={this.handleAddItem}
-            onReset={this.handleReset}
-          />
+        <NavBar
+          cals={this.state.totalCal}
+          foodList={this.state.foodList}
+          onDeleteItem={this.handleDeleteItem}
+          onAddItem={this.handleAddItem}
+          onReset={this.handleReset}
+        />
         <div className="mainBox">
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
             <Switch>
               <Route exact path="/">
                 <Home
