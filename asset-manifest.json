@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/fastCal/static/css/main.e549b19d.chunk.css",
+    "main.js": "/fastCal/static/js/main.d860d44a.chunk.js",
+    "main.js.map": "/fastCal/static/js/main.d860d44a.chunk.js.map",
+    "runtime-main.js": "/fastCal/static/js/runtime-main.7c59a35e.js",
+    "runtime-main.js.map": "/fastCal/static/js/runtime-main.7c59a35e.js.map",
+    "static/css/2.7b1c032f.chunk.css": "/fastCal/static/css/2.7b1c032f.chunk.css",
+    "static/js/2.2a98cc3a.chunk.js": "/fastCal/static/js/2.2a98cc3a.chunk.js",
+    "static/js/2.2a98cc3a.chunk.js.map": "/fastCal/static/js/2.2a98cc3a.chunk.js.map",
+    "static/js/3.2041e4b0.chunk.js": "/fastCal/static/js/3.2041e4b0.chunk.js",
+    "static/js/3.2041e4b0.chunk.js.map": "/fastCal/static/js/3.2041e4b0.chunk.js.map",
+    "index.html": "/fastCal/index.html",
+    "static/css/2.7b1c032f.chunk.css.map": "/fastCal/static/css/2.7b1c032f.chunk.css.map",
+    "static/css/main.e549b19d.chunk.css.map": "/fastCal/static/css/main.e549b19d.chunk.css.map",
+    "static/js/2.2a98cc3a.chunk.js.LICENSE.txt": "/fastCal/static/js/2.2a98cc3a.chunk.js.LICENSE.txt",
+    "static/media/Arbys.8d320aec.png": "/fastCal/static/media/Arbys.8d320aec.png",
+    "static/media/BurgerKing.05651282.png": "/fastCal/static/media/BurgerKing.05651282.png",
+    "static/media/Chick-fil-A.47534ac2.png": "/fastCal/static/media/Chick-fil-A.47534ac2.png",
+    "static/media/Chipotle.cf59b733.png": "/fastCal/static/media/Chipotle.cf59b733.png",
+    "static/media/CookOut.4846e2d5.png": "/fastCal/static/media/CookOut.4846e2d5.png",
+    "static/media/FiveGuys.5aeed69f.png": "/fastCal/static/media/FiveGuys.5aeed69f.png",
+    "static/media/Hardees.f271b54b.png": "/fastCal/static/media/Hardees.f271b54b.png",
+    "static/media/InNOut.6a965d61.png": "/fastCal/static/media/InNOut.6a965d61.png",
+    "static/media/McDonalds-logo.fa235816.png": "/fastCal/static/media/McDonalds-logo.fa235816.png",
+    "static/media/PandaExpress.bbee12f7.png": "/fastCal/static/media/PandaExpress.bbee12f7.png",
+    "static/media/Panera.27e0d1cc.png": "/fastCal/static/media/Panera.27e0d1cc.png",
+    "static/media/Sonic.9c7b14a3.svg": "/fastCal/static/media/Sonic.9c7b14a3.svg",
+    "static/media/Subway.45980761.png": "/fastCal/static/media/Subway.45980761.png",
+    "static/media/TacoBell.30cd8a52.png": "/fastCal/static/media/TacoBell.30cd8a52.png",
+    "static/media/Wendys.ec09b202.png": "/fastCal/static/media/Wendys.ec09b202.png",
+    "static/media/add.5b2d1b4d.svg": "/fastCal/static/media/add.5b2d1b4d.svg",
+    "static/media/delete.56b3e774.svg": "/fastCal/static/media/delete.56b3e774.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c59a35e.js",
+    "static/css/2.7b1c032f.chunk.css",
+    "static/js/2.2a98cc3a.chunk.js",
+    "static/css/main.e549b19d.chunk.css",
+    "static/js/main.d860d44a.chunk.js"
+  ]
+}
