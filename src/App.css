@@ -107,7 +107,7 @@ img {
 }
 
 .navbar {
-  background-color: red;
+  background-color: rgb(39, 39, 39);
   position: sticky !important;
   width: 100%;
   top: 0;
